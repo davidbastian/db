@@ -4,10 +4,11 @@
                 "name":"Gallipoli: The Scale of War",
                 "title":"<small>Gallipoli:</small>The Scale of War",
                 "role":"Interaction Design & Front End Development.",
-                "description":"Project for Designworks, I did wireframes, Front-end, and Interaction design. using GSAP for the animations & angularJS. for the implemetation.",
+                "description":"I did wireframes, Front-end, and Interaction design. using GSAP for the animations & angularJS for the implemetation, also I got a Gold Best Awards NZ for this site.",
                 "link":"demo.html",
                 "img":"images/009.jpg",
                 "media":[
+                    {"img" :"images/009.jpg"},
                     {"img" :"images/009a.jpg"},
                     {"img": "images/009b.jpg"},
                     {"img": "images/009c.jpg"}
@@ -17,9 +18,17 @@
                 "name":"Manfeild", 
                 "title":"<small>Events centre</small>Manfeild", 
                 "role":"Design.",
-                "description":"Project to BlacksheepDesign, I did wireframes, art direction and design. using Photoshop.",
+                "description":"I did wireframes, art direction and design using Adobe Photoshop, the main idea for this project was take the colors of the main photography of the page and implement in each of its segments.",
                 "link":"demo.html",
-                "img":"images/008.jpg"
+                "img":"images/008.jpg",
+                "media":[
+                    {"img" :"images/008b.jpg"},
+                     {"img": "images/008c.jpg"},
+                    {"img": "images/008f.jpg"},
+                    {"img": "images/008d.jpg"},
+                    {"img": "images/008e.jpg"}
+                   
+                ]
             },
             {
                 "name":"Christian Andrada", 
@@ -142,7 +151,7 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/002.jpg"
+                "img":"images/026.jpg"
             }, 
 
             {
