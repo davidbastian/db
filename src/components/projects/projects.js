@@ -33,10 +33,6 @@ export default class projects extends React.Component {
 
 	  if (slug === getslug) {		
                 newProject.push(project);
-
-                
-
-
 	  }
 
 	});
