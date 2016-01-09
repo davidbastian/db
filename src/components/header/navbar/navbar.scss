@@ -1,0 +1,28 @@
+header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        //padding: 40px 0;
+        height:10vh;
+
+        #logo {
+                font-size:17px;
+                //text-transform:uppercase;
+                font-weight:600px;
+        }
+
+        #menu {
+            display: flex;
+            li {
+                margin-left: 40px;
+
+                a {
+                  //  font-family: 'K29';
+                    text-transform: lowercase;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

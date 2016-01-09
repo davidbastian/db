@@ -1,0 +1,113 @@
+@import "../variables.scss";
+@import "../reset.scss";
+@import "../../static/fonts/stylesheet.css";
+html,
+body {
+    background-color: $body-bg;
+    font-size: $font-size;
+    color: $text-color;
+    font-family: sans-serif;
+
+
+
+        &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        }
+         
+        &::-webkit-scrollbar-track {
+           background-color:  white;
+        }
+         
+        &::-webkit-scrollbar-thumb {
+          background-color: #ddd;
+         // outline: 1px solid slategrey;
+        }
+
+
+    a {
+        color: $text-color;
+        text-decoration: none;
+        position: relative;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        line-height: 1.2em;
+    }
+    h6 {
+      //  font-family: 'K50';
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+}
+
+.container {
+    width: 90%;
+    max-width: $max-width-container;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-top: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: default;
+    font-family: 'K50';
+    position: relative;
+
+    border-bottom: 2px solid $brand-color;
+    padding-bottom: 8px;
+}
+
+#slides {
+    position: relative;
+    z-index: 2;
+}
+
+.slide {
+
+
+    height:53vh;
+    padding-top:18vh;
+     display: flex;
+     padding-left: 5%;
+
+    .slideItem {
+                 height:53vh;
+                margin-right:10px;
+                display:block;
+                text-decoration:none;
+
+
+                    img {
+
+                           height:53vh;
+                          width:auto;
+                          display:inline-block;
+                    }
+
+                    p {
+                         padding-left: 0%;
+                        font-size:14px;
+                        padding-top: 40px;
+                        font-weight:100;
+
+                        .role {
+
+                                font-weight:100;
+                                font-style:italic;
+                        }
+                    }
+
+    }
+
+
+
+   
+}
+
+
