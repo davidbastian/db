@@ -11,6 +11,7 @@
                     {"img" :"images/009.jpg"},
                     {"img" :"images/009a.jpg"},
                     {"img": "images/009b.jpg"},
+                    {"video": "images/009.mp4"},
                     {"img": "images/009c.jpg"}
                 ]
             },

@@ -60,18 +60,22 @@
 
 		}
 
-		.images {
+		.media-container {
 				width:55%;
 				float:right;
 
-			img {
+			.media {
 				height:auto;
 				width:100%;
 				display:block;
 				margin-bottom: 15px;
 
-				&:last-of-type {
+				img,video {
+					width:100%;
+					display: block;
+				}
 
+				&:last-of-type {
 					margin-bottom: 0px;
 				}
 					
