@@ -6,13 +6,13 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"I did wireframes, Front-end, and Interaction design. using GSAP for the animations & AngularJS for the implemetation, also I got a Gold Best Awards NZ for this site.",
                 "link":"demo.html",
-                "img":"images/009.jpg",
+                "img":"media/009.jpg",
                 "media":[
-                    {"img" :"images/009.jpg"},
-                    {"img" :"images/009a.jpg"},
-                    {"img": "images/009b.jpg"},
-                    {"video":"images/009.mp4"},
-                    {"img": "images/009c.jpg"}
+                    {"img" :"media/009.jpg"},
+                    {"img" :"media/009a.jpg"},
+                    {"img": "media/009b.jpg"},
+                    {"video":"media/009.mp4"},
+                    {"img": "media/009c.jpg"}
                 ]
             },
             {
@@ -21,13 +21,13 @@
                 "role":"Design.",
                 "description":"I did wireframes, art direction and design using Adobe Photoshop, the main idea for this project was take the colors of the main photography of the page and implement in each of its segments.",
                 "link":"demo.html",
-                "img":"images/008.jpg",
+                "img":"media/008.jpg",
                 "media":[
-                    {"img" :"images/008b.jpg"},
-                     {"img": "images/008c.jpg"},
-                    {"img": "images/008f.jpg"},
-                    {"img": "images/008d.jpg"},
-                    {"img": "images/008e.jpg"}
+                    {"img" :"media/008b.jpg"},
+                     {"img": "media/008c.jpg"},
+                    {"img": "media/008f.jpg"},
+                    {"img": "media/008d.jpg"},
+                    {"img": "media/008e.jpg"}
                    
                 ]
             },
@@ -37,9 +37,9 @@
                 "role":"Design, Development, Art & Creative Direction.",
                 "description":"For this project I did Art direction, Creative idea & Web Development, I used AngularJS for the Front-end Implementation and Wordpress for the Back-end, powered with GSAP TweenMax.",
                 "link":"demo.html",
-                "img":"images/001.jpg",
+                "img":"media/001.jpg",
                  "media":[
-                    {"img" :"images/001.jpg"}   
+                    {"img" :"media/001.jpg"}   
                 ]
             }, 
 
@@ -49,7 +49,7 @@
                 "role":"Design.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/007.jpg"
+                "img":"media/007.jpg"
             }, 
 
             {
@@ -58,7 +58,7 @@
                 "role":"Design and Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/004.jpg"
+                "img":"media/004.jpg"
             }, 
 
             {
@@ -66,7 +66,7 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/011.jpg"
+                "img":"media/011.jpg"
             }, 
 
             {
@@ -74,7 +74,7 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/025.jpg"
+                "img":"media/025.jpg"
             }, 
 
 
@@ -83,7 +83,7 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/020.jpg"
+                "img":"media/020.jpg"
             }, 
 
             {
@@ -91,7 +91,7 @@
                 "role":"Design.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/012.jpg"
+                "img":"media/012.jpg"
             }, 
 
             {
@@ -99,7 +99,7 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/023.jpg"
+                "img":"media/023.jpg"
             }, 
 
             {
@@ -107,7 +107,7 @@
                 "role":"Design.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/014.jpg"
+                "img":"media/014.jpg"
             }, 
 
             {
@@ -115,7 +115,7 @@
                 "role":"Interaction Design & Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/010.jpg"
+                "img":"media/010.jpg"
             }, 
 
             {
@@ -123,7 +123,7 @@
                 "role":"Interaction Design & Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/005.jpg"
+                "img":"media/005.jpg"
             }, 
 
             {
@@ -131,7 +131,7 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/015.jpg"
+                "img":"media/015.jpg"
             }, 
 
             {
@@ -139,7 +139,7 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/016.jpg"
+                "img":"media/016.jpg"
             }, 
 
             {
@@ -147,7 +147,7 @@
                 "role":"Design.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/017.jpg"
+                "img":"media/017.jpg"
             }, 
 
             {
@@ -155,7 +155,7 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/026.jpg"
+                "img":"media/026.jpg"
             }, 
 
             {
@@ -163,7 +163,7 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/013.jpg"
+                "img":"media/013.jpg"
             }, 
 
             {
@@ -171,7 +171,7 @@
                 "role":"Interaction Design & Front End Development.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/006.jpg"
+                "img":"media/006.jpg"
             }, 
 
             {
@@ -179,7 +179,7 @@
                 "role":"Design, Develop.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/021.jpg"
+                "img":"media/021.jpg"
             }, 
 
             {
@@ -187,7 +187,7 @@
                 "role":"Design, Develop.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/024.jpg"
+                "img":"media/024.jpg"
             }, 
 
             {
@@ -195,7 +195,7 @@
                 "role":"Mobile Design.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/022.jpg"
+                "img":"media/022.jpg"
             } , 
 
             {
@@ -203,7 +203,7 @@
                 "role":".",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/018.jpg"
+                "img":"media/018.jpg"
             } , 
 
             {
@@ -211,7 +211,7 @@
                 "role":"Design, Develop, Art & Creative Direction.",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
                 "link":"demo.html",
-                "img":"images/003.jpg"
+                "img":"media/003.jpg"
             }
             
     

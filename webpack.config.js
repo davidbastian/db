@@ -16,8 +16,8 @@ module.exports = {
 
             // Directory examples 
             {
-                from: 'src/components/projects/images',
-                to: './images'
+                from: 'src/components/projects/media',
+                to: './media'
             }
         ]),
 

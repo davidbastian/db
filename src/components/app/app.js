@@ -7,17 +7,12 @@ import Footer from '../footer/footer.js'
 
 let ReactTransitionGroup = require('react-addons-transition-group');
 
-import RouteTransition from './RouteTransition.js'
-
 export default class App extends React.Component {
 
   constructor(props) {
     super(props);
-
-    /*console.log(this.state)*/
    
   }
-
  
 
   render() {
