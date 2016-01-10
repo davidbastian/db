@@ -15,7 +15,7 @@ class Introduction extends React.Component {
                           pjson.map(
                             a => 
                                 <Link key={a.slug} className="slideItem"  to={`${a.slug.toLowerCase().split(' ').join('-')}`}>
-                                    <img key={a.img} src={a.img} alt={a.description}/>
+                                    <img key={a.img} src={a.img} alt={a.slug}/>
                                     <p key={a.role}> {a.slug} — <span className="role" key={a.role}>{a.role}</span></p>
                                </Link>
                           )

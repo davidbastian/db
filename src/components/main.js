@@ -16,7 +16,7 @@ import Projects from './projects/projects.js';
 import p from 'json!./projects/projects.json' 
 const pjson = p.projects
 
-console.log(pjson);
+/*console.log(pjson);*/
 
 
 import App from './app/app'; 

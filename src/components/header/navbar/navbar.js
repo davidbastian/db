@@ -1,12 +1,9 @@
 import React from 'react';
 import './navbar.scss'
-//const dw = require('file!img!./dw.svg');
-
 
 const  brand = {
-	//src: dw,
-	href: 'http://www.designworks.com',
-	alt: 'Designworks.com'
+	href: 'http://www.davidbastian.cl',
+	alt: 'David Bastian.cl'
 
 }
 
@@ -30,7 +27,7 @@ export default class navbar extends React.Component {
 		      		<a href="">+ About me</a>
 		      	</li>
 		      	<li>
-		      		<a href="">+ d@davidbastian.cl</a>
+		      		<a href="mailto:d@davidbastian.cl">+ d@davidbastian.cl</a>
 		      	</li>
 		      </ul>
 
