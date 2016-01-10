@@ -7,19 +7,25 @@ const pjson = p.projects
 
 
 class Video extends React.Component {
-
-  render() {
-
-        return (
-        <video loop="true" and  autoplay="autoplay">
-          <source src={this.props.myvideo} type="video/mp4"></source>
-        </video>
-      )
+  render(){
+     return (
+          <video autoplay="autoplay" loop="true">
+            <source src={this.props.video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+      )  
   }
+}
 
-};
+class Image extends React.Component {
+  render(){
+     return (
+          <img src={this.props.image} alt={this.props.type} />   
+      )  
+  }
+}
 
-//export default Link
+
 
 export default class projects extends React.Component {
 
@@ -31,25 +37,17 @@ export default class projects extends React.Component {
 
 	var newProject = [];
 	var selectedUser = pjson.find( function(project){
-  const getslug = project.name.toLowerCase().split(' ').join('-');
+  const getslug = project.slug.toLowerCase().split(' ').join('-');
 
       /*console.log(per)*/ 
 
 	  if (slug === getslug) {		
-                newProject.push(project);
+                newProject.push(project);	  
 
-                console.log(newProject[0].media)
-	  }
+    }
 
 	});
 
-    let condition  = newProject[0].media !== undefined
-
-    const url = 'images/009.mp4'
-        /*      if (condition) {
-        console.log('')   
-      }
-      */
     return (
 
 
@@ -58,14 +56,12 @@ export default class projects extends React.Component {
         <div className="description">
 
           <div className="descriptionInner">
-               <h2 key={'h2'} dangerouslySetInnerHTML={{__html: newProject[0].title}} /> 
+                <h2 key={'h2'} dangerouslySetInnerHTML={{__html: newProject[0].title}} /> 
                 <p  key={'p'} dangerouslySetInnerHTML={{__html: newProject[0].description}} /> 
-
            </div>       
         
         </div> 
         <div className="media-container"> 
-
                     {     
                               newProject[0].media.map(
                                   a =>  
@@ -75,7 +71,6 @@ export default class projects extends React.Component {
                                   
                               )
                     } 
-                    
         </div>
         
  		
