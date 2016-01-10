@@ -4,14 +4,14 @@
                 "name":"Gallipoli: The Scale of War",
                 "title":"<small>Gallipoli:</small>The Scale of War",
                 "role":"Interaction Design & Front End Development.",
-                "description":"I did wireframes, Front-end, and Interaction design. using GSAP for the animations & angularJS for the implemetation, also I got a Gold Best Awards NZ for this site.",
+                "description":"I did wireframes, Front-end, and Interaction design. using GSAP for the animations & AngularJS for the implemetation, also I got a Gold Best Awards NZ for this site.",
                 "link":"demo.html",
                 "img":"images/009.jpg",
                 "media":[
                     {"img" :"images/009.jpg"},
                     {"img" :"images/009a.jpg"},
                     {"img": "images/009b.jpg"},
-                    {"video": "images/009.mp4"},
+                    {"video":"images/009.mp4"},
                     {"img": "images/009c.jpg"}
                 ]
             },
@@ -35,9 +35,12 @@
                 "name":"Christian Andrada", 
                 "title":"<small>Speaker, Couch & Consultant</small>Christian Andrada", 
                 "role":"Design, Development, Art & Creative Direction.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+                "description":"For this project I did Art direction, Creative idea & Web Development, I used AngularJS for the Front-end Implementation and Wordpress for the Back-end, powered with GSAP TweenMax.",
                 "link":"demo.html",
-                "img":"images/001.jpg"
+                "img":"images/001.jpg",
+                 "media":[
+                    {"img" :"images/001.jpg"}   
+                ]
             }, 
 
             {
