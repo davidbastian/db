@@ -9,11 +9,11 @@
                 "img":"media/009.jpg",
                 "media": [
                     {
-                        "type": "video",
+                        "type": "image",
                         "enabled": 1,
                         "links": [
                           { 
-                            "src": "http://www.w3schools.com/html/mov_bbb.mp4"
+                            "src":"media/009.jpg"
                           }
                         ]
                     },
@@ -22,10 +22,37 @@
                         "enabled": 1,
                         "links": [
                           { 
-                            "src": "http://www.freelargeimages.com/wp-content/uploads/2014/12/Landscape_01.jpg"
+                            "src":"media/009a.jpg"
+                          }
+                        ]
+                    },
+                    {
+                        "type": "image",
+                        "enabled": 1,
+                        "links": [
+                          { 
+                            "src":"media/009b.jpg"
+                          }
+                        ]
+                    },
+                    {
+                        "type": "video",
+                        "enabled": 1,
+                        "links": [
+                          { 
+                            "src": "media/009.mp4"
                           }
                         ]
                         
+                    },
+                    {
+                        "type": "image",
+                        "enabled": 1,
+                        "links": [
+                          { 
+                            "src":"media/009c.jpg"
+                          }
+                        ]
                     }
                 ]
             },
@@ -36,17 +63,54 @@
                 "description":"I did wireframes, art direction and design using Adobe Photoshop, the main idea for this project was take the colors of the main photography of the page and implement in each of its segments.",
                 "link":"demo.html",
                 "img":"media/008.jpg",
-                "media":[
+                "media": [
                     {
                         "type": "image",
                         "enabled": 1,
                         "links": [
                           { 
-                            "src":"http://www.freelargeimages.com/wp-content/uploads/2014/12/Landscape_01.jpg"
+                            "src":"media/008b.jpg"
                           }
                         ]
-                        
+                    },
+                    {
+                        "type": "image",
+                        "enabled": 1,
+                        "links": [
+                          { 
+                            "src":"media/008c.jpg"
+                          }
+                        ]
+                    },
+
+                    {
+                        "type": "image",
+                        "enabled": 1,
+                        "links": [
+                          { 
+                            "src":"media/008f.jpg"
+                          }
+                        ]
+                    },
+                    {
+                        "type": "image",
+                        "enabled": 1,
+                        "links": [
+                          { 
+                            "src":"media/008e.jpg"
+                          }
+                        ]
+                    },
+                    {
+                        "type": "image",
+                        "enabled": 1,
+                        "links": [
+                          { 
+                            "src":"media/008d.jpg"
+                          }
+                        ]
                     }
+                    
                 ]            
             },
             {

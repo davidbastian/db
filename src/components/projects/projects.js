@@ -9,7 +9,7 @@ const pjson = p.projects
 class Video extends React.Component {
   render(){
      return (
-          <video autoplay="autoplay" loop="true">
+          <video loop="true">
             <source src={this.props.video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -26,8 +26,9 @@ class Image extends React.Component {
 }
 
 
-
 export default class projects extends React.Component {
+
+
 
   render() {
 
@@ -63,11 +64,31 @@ export default class projects extends React.Component {
         </div> 
         <div className="media-container"> 
                     {     
-                              newProject[0].media.map(function(a) {
+                              newProject[0].media.map(function(a, i) {
+
+                                 var links = a.links.map(function(l, i) {
+
+                                    var type = a.type;
+
+                                    if( type === 'video') {
+                                          var media = <Video  video={l.src} type={a.type} />
+
+                                    } else if (type === 'image'){
+                                          var media = <Image   image={l.src} type={a.type} />
+
+                                    }
+
+                                    return (                           
+                                     <div  key={i}>                          
+                                        {media} 
+                                    </div>
+                                    )
+                                });
+
 
                                 return (
                                       <div className="media">
-                                        <img  key={a.img} src={a.img} alt={a.img}/> 
+                                        {links}
                                       </div>
                                   )
                                   
