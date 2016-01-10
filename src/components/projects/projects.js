@@ -20,12 +20,14 @@ class Video extends React.Component {
 
 class Image extends React.Component {
 
-
+  componentDidMount() {
+      console.log(ReactDom.findDOMNode(this.refs.one));
+  }
 
 
   render(){
      return (
-          <img  src={this.props.image} alt={this.props.type} />   
+          <img ref='one'  src={this.props.image} alt={this.props.type} />   
       )  
   }
 }
@@ -34,11 +36,6 @@ class Image extends React.Component {
 
 
 export default class projects extends React.Component {
-
-  componentDidMount() {
-      console.log(ReactDom.findDOMNode(this.refs.one));
-  }
-
 
 
   render() {
@@ -88,7 +85,7 @@ export default class projects extends React.Component {
                                           var media = <Video key={i} video={l.src} type={a.type} />
 
                                     } else if (type === 'image'){
-                                          var media = <Image ref='one' key={i}  image={l.src} type={a.type} />
+                                          var media = <Image  key={i}  image={l.src} type={a.type} />
 
                                     }
 
