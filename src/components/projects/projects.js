@@ -69,7 +69,7 @@ export default class projects extends React.Component {
                                       <div className="media">
                                         <img  key={a.img} src={a.img} alt={a.img}/> 
                                       </div>
-                                      )
+                                  )
                                   
                               })
                     } 
