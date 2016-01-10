@@ -63,13 +63,15 @@ export default class projects extends React.Component {
         </div> 
         <div className="media-container"> 
                     {     
-                              newProject[0].media.map(
-                                  a =>  
+                              newProject[0].media.map(function(a) {
+
+                                return (
                                       <div className="media">
                                         <img  key={a.img} src={a.img} alt={a.img}/> 
                                       </div>
+                                      )
                                   
-                              )
+                              })
                     } 
         </div>
         
