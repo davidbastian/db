@@ -9,26 +9,20 @@ import zepto from 'npm-zepto'
 import gsap from 'gsap'
 
 
-
-
 let ReactTransitionGroup = require('react-addons-transition-group');
 
 export default class App extends React.Component {
 
 
-
-   componentDidMount() {
+  componentDidMount() {
 
   };
-
-
 
   constructor(props) {
     super(props);
    
   }
  
-
   render() {
 
    var name = this.props.params.name;
@@ -36,7 +30,6 @@ export default class App extends React.Component {
      /*console.log(name)*/
     
     return (
-
       <div className="main-wrap">
       		 <Header />
            <Sidebar />
@@ -51,7 +44,6 @@ export default class App extends React.Component {
                  
           </div>
             <Footer />
-
       </div>    
 
     );

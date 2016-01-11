@@ -2,9 +2,8 @@ import React from 'react'
 import ReactDom from 'react-dom'  
 
 import './projects.scss'
-
 import gsap from 'gsap'  
-
+import scrolltoplugin from '../../../node_modules/gsap/src/uncompressed/plugins/ScrollToPlugin.js'
 import zepto from 'npm-zepto'
 
 import p from 'json!./projects.json'
@@ -30,8 +29,9 @@ class Video extends React.Component {
   }
 }
 
-class Image extends React.Component {
 
+
+class Image extends React.Component {
   componentDidMount() {
       console.log(ReactDom.findDOMNode(this.refs.one));
 
@@ -39,20 +39,39 @@ class Image extends React.Component {
   render(){
      return (
           <img ref='one'  src={this.props.image} alt={this.props.type} />   
-      )  
+      )   
   }
 }
+
+
 
 export default class projects extends React.Component {
 
   componentWillMount() {
-      
               var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
               console.log(isSafari)
 
+              var ele = $('#main'),
+                scrollTime = 1.2,
+                scrollDistance = 170; 
 
-  }
-  
+              require('mouse-wheel')(function(dx, dy) {
+
+                var delta = dy / 120,
+                    scrollTop = ele.scrollTop(),
+                    finalScroll = scrollTop - parseInt((delta * scrollDistance), 10);
+                    console.log(delta, scrollTop,finalScroll);
+
+                    TweenMax.to(ele, scrollTime, {
+                        scrollTo: {
+                            y: finalScroll
+                        },
+                        ease: Expo.easeOut, //For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
+                        overwrite: 5
+                    });
+              })
+
+  } 
 
   render() {
 
@@ -61,14 +80,14 @@ export default class projects extends React.Component {
 
 	var newProject = [];
 	var selectedUser = pjson.find( function(project){
-  const getslug = project.slug.toLowerCase().split(' ').join('-');
+    const getslug = project.slug.toLowerCase().split(' ').join('-');
 
 
-	  if (slug === getslug) {		
-                newProject.push(project);	  
+  	if (slug === getslug) {		
+          newProject.push(project);	  
     }
 
-	});
+	 });
 
     return (
 
