@@ -17,7 +17,7 @@ class Video extends React.Component {
 
 componentDidMount() {
      var node = ReactDom.findDOMNode(this.refs.video);
-     console.log(node);
+    // console.log(node);
      node.play();
 }
 
@@ -35,9 +35,11 @@ render(){
 
 
 class Image extends React.Component {
+
   componentDidMount() {
-      console.log(ReactDom.findDOMNode(this.refs.one));
+     // console.log(ReactDom.findDOMNode(this.refs.one));
   }
+
 
   render(){
      return (
@@ -50,17 +52,62 @@ class Image extends React.Component {
 
 export default class projects extends React.Component {
 
-  componentWillMount() {
-              var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-              console.log(isSafari)
+preloadFunction(){
 
-              var ele = $('#main'),
+      /* imgLoad.on( 'progress', function( instance, image ) {
+        var result = image.isLoaded ? 'loaded' : 'broken';
+        console.log( 'image is ' + result + ' for ' + image.img.src );
+      });*/
+
+       /* var countB = 1,
+        imaSize = $('.media-container').find('img').size();
+
+        imagesLoaded('.media-container').always(function (instance) {
+            // console.log('all images loaded');
+
+        }).done(function (instance) {
+            //console.log('done');
+
+        }).fail(function () {
+            //console.log('fail');
+
+        }).progress(function (instance, image) {
+            var result = image.isLoaded ? 'loaded' : 'broken';
+            
+            console.log('width:' +  (((countB = countB + 1) * 100) / imaSize) + '%');
+        });*/
+
+        var imgLoad =  imagesLoaded('.media-container');
+
+
+        imgLoad.on( 'done', function( instance ) {
+         console.log('DONE  - all images have been successfully loaded');
+        });
+
+        imgLoad.on( 'progress', function( instance, image ) {
+          var result = image.isLoaded ? 'loaded' : 'broken';
+          console.log( 'image is ' + result + ' for ' + image.img.src );
+        });
+
+
+}
+
+componentDidMount() {
+     // console.log(ReactDom.findDOMNode(this.refs.one));
+      //preloadFunction
+      this.preloadFunction(); 
+
+}
+
+
+scrollFunction() {
+            var ele = $('#main'),
                 scrollTime = 1.2,
                 scrollDistance = 170; 
 
               require('mouse-wheel')(function(dx, dy, noScroll) {
 
-                var delta = dy / 120,
+                var delta = dy / 10,
                     scrollTop = ele.scrollTop(),
                     finalScroll = scrollTop - parseInt((delta * scrollDistance), 10);
                     console.log(delta, scrollTop,finalScroll);
@@ -69,15 +116,21 @@ export default class projects extends React.Component {
                         scrollTo: {
                             y: finalScroll
                         },
-                        ease: Expo.easeOut, //For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
+                        ease: Expo.easeOut,
                         overwrite: 5
                     });
               })
-  } 
 
-  componentDidMount() {
-              
-  } 
+
+}
+
+componentWillMount() {
+              var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+              console.log(isSafari)
+
+              //load scrollFunction
+              this.scrollFunction();        
+} 
 
 
 
