@@ -19,13 +19,13 @@ module.exports = {
                 from: 'src/components/projects/media',
                 to: './media'
             }
-        ]),
+        ])
 
 
-        new webpack.ProvidePlugin({
+        /*new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery"
-        })
+        })*/
    
     
 

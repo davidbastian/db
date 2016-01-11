@@ -5,6 +5,8 @@ import './projects.scss'
 
 import gsap from 'gsap'  
 
+import zepto from 'npm-zepto'
+
 import p from 'json!./projects.json'
 const pjson = p.projects
 
@@ -43,6 +45,14 @@ class Image extends React.Component {
 
 export default class projects extends React.Component {
 
+  componentWillMount() {
+      
+              var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+              console.log(isSafari)
+
+
+  }
+  
 
   render() {
 
