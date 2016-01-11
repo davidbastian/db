@@ -5,6 +5,8 @@ import Header from '../header/header.js'
 import Sidebar from '../sidebar/sidebar.js'
 import Footer from '../footer/footer.js'
 
+
+
 let ReactTransitionGroup = require('react-addons-transition-group');
 
 export default class App extends React.Component {

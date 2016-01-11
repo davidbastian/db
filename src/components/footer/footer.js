@@ -22,7 +22,10 @@ export default class footer extends React.Component {
 
                     <div className="container">
                             <p>© 2016 David Bastian. Chilean Designer & Web Developer. </p>
-                    </div>		
+                           
+                    </div>	
+
+                        
         			
         	</footer>
 

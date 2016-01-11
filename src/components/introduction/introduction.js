@@ -1,6 +1,7 @@
 import React from 'react'
 import { Router, Route, IndexRoute, Link, IndexLink, RouteHandler  } from 'react-router'
 import './introduction.scss'
+import gsap from 'gsap'  
 
 import p from 'json!../projects/projects.json'
 const pjson = p.projects
