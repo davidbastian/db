@@ -1,12 +1,40 @@
 import React from 'react'
 import { Router, Route, IndexRoute, Link, IndexLink, RouteHandler  } from 'react-router'
 import './introduction.scss'
+
 import gsap from 'gsap'  
+import zepto from 'npm-zepto'
 
 import p from 'json!../projects/projects.json'
 const pjson = p.projects
+
+
+import jquerymousewheel from 'jquery-mousewheel'  
+
+
 class Introduction extends React.Component {
+
+
+
+
+scrollFunction() {
+
+    $("#main").on('mousewheel', function(event, delta) {
+            this.scrollLeft -= (delta * 2);
+            event.preventDefault();
+    });
+}
+
+
+componentWillMount() {
+     this.scrollFunction();
+}
+
+
   render() { 
+
+    
+
     return (
       <div className="slides"> 
 

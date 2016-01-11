@@ -4,12 +4,16 @@ import ReactDom from 'react-dom'
 import './projects.scss'
 import gsap from 'gsap'  
 import scrolltoplugin from '../../../node_modules/gsap/src/uncompressed/plugins/ScrollToPlugin.js'
+
+
 import zepto from 'npm-zepto'
+
+import imagesLoaded from 'imagesLoaded'
 
 import p from 'json!./projects.json'
 const pjson = p.projects
 
-var imagesLoaded = require('imagesLoaded');
+
 
 
 
@@ -31,7 +35,6 @@ render(){
       )  
   }
 }
-
 
 
 class Image extends React.Component {
@@ -127,12 +130,11 @@ export default class projects extends React.Component {
 
   }
 
+
   componentDidMount() {
         //preloadFunction
         this.preloadFunction(); 
-
   }
-
 
 
   componentWillMount() {
@@ -142,7 +144,6 @@ export default class projects extends React.Component {
                 //load scrollFunction
                 //this.scrollFunction();        
   }
-
 
 
   render() {
@@ -168,10 +169,10 @@ export default class projects extends React.Component {
           <div className="descriptionInner">
                 <h2 key={'h2'} dangerouslySetInnerHTML={{__html: newProject[0].title}} /> 
                 <p  key={'p'} dangerouslySetInnerHTML={{__html: newProject[0].description}} /> 
-               
            </div>       
         
         </div> 
+
         <div className="media-container"> 
 
                     {     
