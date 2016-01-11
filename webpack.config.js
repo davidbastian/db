@@ -14,7 +14,6 @@ module.exports = {
     plugins: [
         new webpack.optimize.UglifyJsPlugin(),
         new CopyWebpackPlugin([
-
             // Directory examples 
             {
                 from: 'src/components/projects/media',

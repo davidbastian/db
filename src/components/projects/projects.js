@@ -1,6 +1,9 @@
 import React from 'react'
 import ReactDom from 'react-dom'  
+
 import './projects.scss'
+
+import gsap from 'gsap'  
 
 import p from 'json!./projects.json'
 const pjson = p.projects
@@ -8,9 +11,15 @@ const pjson = p.projects
 
 
 class Video extends React.Component {
+
+  componentDidMount() {
+     var node = ReactDom.findDOMNode(this.refs.video);
+     console.log(node);
+  }
+
   render(){
      return (
-          <video loop="true">
+          <video  ref='video' loop="true">
             <source src={this.props.video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -22,15 +31,14 @@ class Image extends React.Component {
 
   componentDidMount() {
       console.log(ReactDom.findDOMNode(this.refs.one));
-  }
 
+  }
   render(){
      return (
           <img ref='one'  src={this.props.image} alt={this.props.type} />   
       )  
   }
 }
-
 
 export default class projects extends React.Component {
 
@@ -66,6 +74,7 @@ export default class projects extends React.Component {
         
         </div> 
         <div className="media-container"> 
+
                     {     
                               newProject[0].media.map(function(a, i) {
 

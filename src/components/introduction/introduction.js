@@ -4,9 +4,7 @@ import './introduction.scss'
 
 import p from 'json!../projects/projects.json'
 const pjson = p.projects
-
 class Introduction extends React.Component {
-
   render() { 
     return (
       <div className="slides"> 

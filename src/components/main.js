@@ -22,12 +22,10 @@ const pjson = p.projects
 import App from './app/app'
 
 
-
 // Opt-out of persistent state, not recommended.
 /*var history = createHistory({
   queryKey: ''
 });*/
-
 
 const routeConfig = [
   { path: '/',
