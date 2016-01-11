@@ -14,10 +14,6 @@ let ReactTransitionGroup = require('react-addons-transition-group');
 export default class App extends React.Component {
 
 
-  componentDidMount() {
-
-  };
-
   constructor(props) {
     super(props);
    
@@ -34,9 +30,7 @@ export default class App extends React.Component {
       		 <Header />
            <Sidebar />
                
-           <div id="site"> 
-                                             
-
+           <div id="site">                                             
               <ReactTransitionGroup component="div">
                {this.props.children}
               </ReactTransitionGroup>

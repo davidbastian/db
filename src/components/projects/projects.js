@@ -19,6 +19,8 @@ class Video extends React.Component {
      node.play();
   }
 
+ 
+
   render(){
      return (
           <video  ref='video' loop="true">
