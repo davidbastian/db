@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDom from 'react-dom';  
+import ReactDom from 'react-dom'  
 import './projects.scss'
 
 import p from 'json!./projects.json'
@@ -24,15 +24,12 @@ class Image extends React.Component {
       console.log(ReactDom.findDOMNode(this.refs.one));
   }
 
-
   render(){
      return (
           <img ref='one'  src={this.props.image} alt={this.props.type} />   
       )  
   }
 }
-
-
 
 
 export default class projects extends React.Component {
@@ -42,19 +39,14 @@ export default class projects extends React.Component {
 
   const slug = this.props.params.slug
 
-  /*console.log(slug)*/
-
-
 
 	var newProject = [];
 	var selectedUser = pjson.find( function(project){
   const getslug = project.slug.toLowerCase().split(' ').join('-');
 
-      /*console.log(per)*/ 
 
 	  if (slug === getslug) {		
                 newProject.push(project);	  
-
     }
 
 	});

@@ -1,6 +1,6 @@
 /*react*/
 import React from 'react';
-import ReactDom from 'react-dom';  
+import ReactDom from 'react-dom'
 
 
 /*router*/
@@ -9,8 +9,8 @@ import { IndexRoute } from 'react-router'
 import { createHistory, useBasename } from 'history'
 
 
-import Introduction from './introduction/introduction'; 
-import Projects from './projects/projects.js';
+import Introduction from './introduction/introduction'
+import Projects from './projects/projects.js'
 
 
 import p from 'json!./projects/projects.json' 
@@ -19,7 +19,7 @@ const pjson = p.projects
 /*console.log(pjson);*/
 
 
-import App from './app/app'; 
+import App from './app/app'
 
 
 
