@@ -1,299 +1,267 @@
 {
-    "projects":[
-            {
-                "slug":"Gallipoli: The Scale of War",
-                "title":"<small>Gallipoli:</small>The Scale of War",
-                "role":"Interaction Design & Front End Development.",
-                "description":"I did wireframes, Front-end, and Interaction design. using GSAP for the animations & AngularJS for the implemetation, also I got a Gold Best Awards NZ for this site.",
-                "link":"demo.html",
-                "img":"media/009.jpg",
-                "media": [
-                    {
-                        "type": "image",
-                        "enabled": 1,
-                        "links": [
-                          { 
-                            "src":"media/009.jpg"
-                          }
-                        ]
-                    },
-                    {
-                        "type": "image",
-                        "enabled": 1,
-                        "links": [
-                          { 
-                            "src":"media/009a.jpg"
-                          }
-                        ]
-                    },
-                    {
-                        "type": "image",
-                        "enabled": 1,
-                        "links": [
-                          { 
-                            "src":"media/009b.jpg"
-                          }
-                        ]
-                    },
-                    {
-                        "type": "video",
-                        "enabled": 1,
-                        "links": [
-                          { 
-                            "src": "http://www.davidbastian.cl/proyectos/media/009.mp4"
-                          }
-                        ]
-                        
-                    },
-                    {
-                        "type": "image",
-                        "enabled": 1,
-                        "links": [
-                          { 
-                            "src":"media/009c.jpg"
-                          }
-                        ]
-                    }
-                ]
-            },
-            {
-                "slug":"Manfeild", 
-                "title":"<small>Events centre</small>Manfeild", 
-                "role":"Design.",
-                "description":"I did wireframes, art direction and design using Adobe Photoshop, the main idea for this project was take the colors of the main photography of the page and implement in each of its segments.",
-                "link":"demo.html",
-                "img":"media/008.jpg",
-                "media": [
-                    {
-                        "type": "image",
-                        "enabled": 1,
-                        "links": [
-                          { 
-                            "src":"media/008b.jpg"
-                          }
-                        ]
-                    },
-                    {
-                        "type": "image",
-                        "enabled": 1,
-                        "links": [
-                          { 
-                            "src":"media/008c.jpg"
-                          }
-                        ]
-                    },
+    "projects": [{
+            "slug": "Gallipoli: The Scale of War",
+            "title": "<small>Gallipoli:</small>The Scale of War",
+            "role": "Interaction Design & Front End Development.",
+            "description": "I did wireframes, Front-end, and Interaction design. using GSAP for the animations & AngularJS for the implemetation, also I got a Gold Best Awards NZ for this site.",
+            "link": "demo.html",
+            "img": "media/009.jpg",
+            "media": [{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/009.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/009a.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/009b.jpg"
+                }]
+            }, {
+                "type": "video",
+                "enabled": 1,
+                "links": [{
+                    "src": "http://www.davidbastian.cl/proyectos/media/009.mp4"
+                }]
 
-                    {
-                        "type": "image",
-                        "enabled": 1,
-                        "links": [
-                          { 
-                            "src":"media/008f.jpg"
-                          }
-                        ]
-                    },
-                    {
-                        "type": "image",
-                        "enabled": 1,
-                        "links": [
-                          { 
-                            "src":"media/008e.jpg"
-                          }
-                        ]
-                    },
-                    {
-                        "type": "image",
-                        "enabled": 1,
-                        "links": [
-                          { 
-                            "src":"media/008d.jpg"
-                          }
-                        ]
-                    }
-                    
-                ]            
-            },
-            {
-                "slug":"Christian Andrada", 
-                "title":"<small>Speaker, Couch & Consultant</small>Christian Andrada", 
-                "role":"Design, Development, Art & Creative Direction.",
-                "description":"For this project I did Art direction, Creative idea & Web Development, I used AngularJS for the Front-end Implementation and Wordpress for the Back-end, powered with GSAP TweenMax.",
-                "link":"demo.html",
-                "img":"media/001.jpg"            }, 
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/009c.jpg"
+                }]
+            }]
+        }, {
+            "slug": "Manfeild",
+            "title": "<small>Events centre</small>Manfeild",
+            "role": "Design.",
+            "description": "I did wireframes, art direction and design using Adobe Photoshop, the main idea for this project was take the colors of the main photography of the page and implement in each of its segments.",
+            "link": "demo.html",
+            "img": "media/008.jpg",
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/008b.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/008c.jpg"
+                    }]
+                },
 
-            {
-                "slug":"Allan Mcneill",
-                "title":"<small>Chartered Accountants</small>Allan Mcneill", 
-                "role":"Design.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/007.jpg"
-            }, 
+                {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/008f.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/008e.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/008d.jpg"
+                    }]
+                }
 
-            {
-                "slug":"Proposal Alloy Yachts",
-                "title":"Proposal <br> Alloy Yachts", 
-                "role":"Design and Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/004.jpg"
-            }, 
+            ]
+        }, {
+            "slug": "Christian Andrada",
+            "title": "<small>Speaker, Couch & Consultant</small>Christian Andrada",
+            "role": "Design, Development, Art & Creative Direction.",
+            "description": "For this project I did Art direction, Creative idea & Web Development, I used AngularJS for the Front-end Implementation and Wordpress for the Back-end, powered with GSAP TweenMax.",
+            "link": "demo.html",
+            "img": "media/001.jpg"
+        },
 
-            {
-                "slug":"Super Diversity Centre", 
-                "role":"Interaction Design & Front End Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/011.jpg"
-            }, 
+        {
+            "slug": "Allan Mcneill",
+            "title": "<small>Chartered Accountants</small>Allan Mcneill",
+            "role": "Design.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/007.jpg"
+        },
 
-            {
-                "slug":"Designworks", 
-                "role":"Interaction Design & Front End Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/025.jpg"
-            }, 
+        {
+            "slug": "Proposal Alloy Yachts",
+            "title": "Proposal <br> Alloy Yachts",
+            "role": "Design and Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/004.jpg"
+        },
+
+        {
+            "slug": "Super Diversity Centre",
+            "role": "Interaction Design & Front End Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/011.jpg"
+        },
+
+        {
+            "slug": "Designworks",
+            "role": "Interaction Design & Front End Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/025.jpg"
+        },
 
 
-            {
-                "slug":"The Choice Protocol", 
-                "role":"Interaction Design & Front End Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/020.jpg"
-            }, 
+        {
+            "slug": "The Choice Protocol",
+            "role": "Interaction Design & Front End Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/020.jpg"
+        },
 
-            {
-                "slug":"Proposal Andes Films", 
-                "role":"Design.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/012.jpg"
-            }, 
+        {
+            "slug": "Proposal Andes Films",
+            "role": "Design.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/012.jpg"
+        },
 
-            {
-                "slug":"Hino Trucks", 
-                "role":"Interaction Design & Front End Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/023.jpg"
-            }, 
+        {
+            "slug": "Hino Trucks",
+            "role": "Interaction Design & Front End Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/023.jpg"
+        },
 
-            {
-                "slug":"Proposal Blacksheepdesign", 
-                "role":"Design.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/014.jpg"
-            }, 
+        {
+            "slug": "Proposal Blacksheepdesign",
+            "role": "Design.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/014.jpg"
+        },
 
-            {
-                "slug":"Barltop Graham", 
-                "role":"Interaction Design & Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/010.jpg"
-            }, 
+        {
+            "slug": "Barltop Graham",
+            "role": "Interaction Design & Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/010.jpg"
+        },
 
-            {
-                "slug":"Wadham & Partners", 
-                "role":"Interaction Design & Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/005.jpg"
-            }, 
+        {
+            "slug": "Wadham & Partners",
+            "role": "Interaction Design & Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/005.jpg"
+        },
 
-            {
-                "slug":"Cinemagica", 
-                "role":"Interaction Design & Front End Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/015.jpg"
-            }, 
+        {
+            "slug": "Cinemagica",
+            "role": "Interaction Design & Front End Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/015.jpg"
+        },
 
-            {
-                "slug":"Wellington Airport Annual Report", 
-                "role":"Interaction Design & Front End Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/016.jpg"
-            }, 
+        {
+            "slug": "Wellington Airport Annual Report",
+            "role": "Interaction Design & Front End Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/016.jpg"
+        },
 
-            {
-                "slug":"Diocese of Palmerston North", 
-                "role":"Design.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/017.jpg"
-            }, 
+        {
+            "slug": "Diocese of Palmerston North",
+            "role": "Design.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/017.jpg"
+        },
 
-            {
-                "slug":"Asian New Zealand Fundation", 
-                "role":"Interaction Design & Front End Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/026.jpg"
-            }, 
+        {
+            "slug": "Asian New Zealand Fundation",
+            "role": "Interaction Design & Front End Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/026.jpg"
+        },
 
-            {
-                "slug":"Gacel", 
-                "role":"Interaction Design & Front End Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/013.jpg"
-            }, 
+        {
+            "slug": "Gacel",
+            "role": "Interaction Design & Front End Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/013.jpg"
+        },
 
-            {
-                "slug":"Caritas Challenge", 
-                "role":"Interaction Design & Front End Development.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/006.jpg"
-            }, 
+        {
+            "slug": "Caritas Challenge",
+            "role": "Interaction Design & Front End Development.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/006.jpg"
+        },
 
-            {
-                "slug":"Proposal Birding Chile", 
-                "role":"Design, Develop.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/021.jpg"
-            }, 
+        {
+            "slug": "Proposal Birding Chile",
+            "role": "Design, Develop.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/021.jpg"
+        },
 
-            {
-                "slug":"Iptv", 
-                "role":"Design, Develop.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/024.jpg"
-            }, 
+        {
+            "slug": "Iptv",
+            "role": "Design, Develop.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/024.jpg"
+        },
 
-            {
-                "slug":"Kaufmann", 
-                "role":"Mobile Design.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/022.jpg"
-            } , 
+        {
+            "slug": "Kaufmann",
+            "role": "Mobile Design.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/022.jpg"
+        },
 
-            {
-                "slug":"Awapuni School", 
-                "role":".",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/018.jpg"
-            } , 
+        {
+            "slug": "Awapuni School",
+            "role": ".",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/018.jpg"
+        },
 
-            {
-                "slug":"Pilar Rodriguez", 
-                "role":"Design, Develop, Art & Creative Direction.",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-                "link":"demo.html",
-                "img":"media/003.jpg"
-            }
-            
-    
+        {
+            "slug": "Pilar Rodriguez",
+            "role": "Design, Develop, Art & Creative Direction.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "link": "demo.html",
+            "img": "media/003.jpg"
+        }
 
-            
+
+
+
     ]
 }

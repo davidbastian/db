@@ -9,19 +9,20 @@ import zepto from 'npm-zepto'
 import p from 'json!./projects.json'
 const pjson = p.projects
 
+var imagesLoaded = require('imagesLoaded');
+
 
 
 class Video extends React.Component {
 
-  componentDidMount() {
+componentDidMount() {
      var node = ReactDom.findDOMNode(this.refs.video);
      console.log(node);
      node.play();
-  }
+}
 
- 
 
-  render(){
+render(){
      return (
           <video  ref='video' loop="true">
             <source src={this.props.video} type="video/mp4" />
@@ -36,8 +37,8 @@ class Video extends React.Component {
 class Image extends React.Component {
   componentDidMount() {
       console.log(ReactDom.findDOMNode(this.refs.one));
-
   }
+
   render(){
      return (
           <img ref='one'  src={this.props.image} alt={this.props.type} />   
@@ -57,7 +58,7 @@ export default class projects extends React.Component {
                 scrollTime = 1.2,
                 scrollDistance = 170; 
 
-              require('mouse-wheel')(function(dx, dy) {
+              require('mouse-wheel')(function(dx, dy, noScroll) {
 
                 var delta = dy / 120,
                     scrollTop = ele.scrollTop(),
@@ -72,11 +73,15 @@ export default class projects extends React.Component {
                         overwrite: 5
                     });
               })
-
   } 
 
-  render() {
+  componentDidMount() {
+              
+  } 
 
+
+
+  render() {
   const slug = this.props.params.slug
 
 
@@ -84,11 +89,9 @@ export default class projects extends React.Component {
 	var selectedUser = pjson.find( function(project){
     const getslug = project.slug.toLowerCase().split(' ').join('-');
 
-
   	if (slug === getslug) {		
           newProject.push(project);	  
     }
-
 	 });
 
     return (
