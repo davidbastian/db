@@ -15,6 +15,7 @@ class Video extends React.Component {
   componentDidMount() {
      var node = ReactDom.findDOMNode(this.refs.video);
      console.log(node);
+     node.play();
   }
 
   render(){
