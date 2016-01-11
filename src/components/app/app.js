@@ -5,11 +5,23 @@ import Header from '../header/header.js'
 import Sidebar from '../sidebar/sidebar.js'
 import Footer from '../footer/footer.js'
 
+import zepto from 'npm-zepto'
+import gsap from 'gsap'
+
+
 
 
 let ReactTransitionGroup = require('react-addons-transition-group');
 
 export default class App extends React.Component {
+
+
+
+   componentDidMount() {
+
+  };
+
+
 
   constructor(props) {
     super(props);
