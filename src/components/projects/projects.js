@@ -35,102 +35,113 @@ render(){
 
 
 class Image extends React.Component {
-
   componentDidMount() {
      // console.log(ReactDom.findDOMNode(this.refs.one));
   }
 
-
   render(){
      return (
-          <img ref='one'  src={this.props.image} alt={this.props.type} />   
+          <img ref='one' src={this.props.image} alt={this.props.type} />   
       )   
   }
 }
 
-
-
 export default class projects extends React.Component {
 
-preloadFunction(){
+  preloadFunction(){
 
-      /* imgLoad.on( 'progress', function( instance, image ) {
-        var result = image.isLoaded ? 'loaded' : 'broken';
-        console.log( 'image is ' + result + ' for ' + image.img.src );
-      });*/
-
-       /* var countB = 1,
-        imaSize = $('.media-container').find('img').size();
-
-        imagesLoaded('.media-container').always(function (instance) {
-            // console.log('all images loaded');
-
-        }).done(function (instance) {
-            //console.log('done');
-
-        }).fail(function () {
-            //console.log('fail');
-
-        }).progress(function (instance, image) {
-            var result = image.isLoaded ? 'loaded' : 'broken';
-            
-            console.log('width:' +  (((countB = countB + 1) * 100) / imaSize) + '%');
-        });*/
-
-        var imgLoad =  imagesLoaded('.media-container');
-
-
-        imgLoad.on( 'done', function( instance ) {
-         console.log('DONE  - all images have been successfully loaded');
-        });
-
-        imgLoad.on( 'progress', function( instance, image ) {
+        /* imgLoad.on( 'progress', function( instance, image ) {
           var result = image.isLoaded ? 'loaded' : 'broken';
           console.log( 'image is ' + result + ' for ' + image.img.src );
-        });
+        });*/
 
+         /* var countB = 1,
+          imaSize = $('.media-container').find('img').size();
 
-}
+          imagesLoaded('.media-container').always(function (instance) {
+              // console.log('all images loaded');
 
-componentDidMount() {
-     // console.log(ReactDom.findDOMNode(this.refs.one));
-      //preloadFunction
-      this.preloadFunction(); 
+          }).done(function (instance) {
+              //console.log('done');
 
-}
+          }).fail(function () {
+              //console.log('fail');
 
+          }).progress(function (instance, image) {
+              var result = image.isLoaded ? 'loaded' : 'broken';
+              
+              console.log('width:' +  (((countB = countB + 1) * 100) / imaSize) + '%');
+          });*/
 
-scrollFunction() {
-            var ele = $('#main'),
-                scrollTime = 1.2,
-                scrollDistance = 170; 
+          window.addEventListener('load', function() {
 
-              require('mouse-wheel')(function(dx, dy, noScroll) {
+              var video =  document.getElementsByTagName('video')[0];
+              //var preloader = document.querySelector('.preloader');
 
-                var delta = dy / 10,
-                    scrollTop = ele.scrollTop(),
-                    finalScroll = scrollTop - parseInt((delta * scrollDistance), 10);
-                    console.log(delta, scrollTop,finalScroll);
+              function checkLoad() {
+                  if (video.readyState === 4) {
+                      //preloader.parentNode.removeChild(preloader);
+                      console.log('video is done')
+                  } else {
+                      setTimeout(checkLoad, 100);
+                  }
+              }
 
-                    TweenMax.to(ele, scrollTime, {
-                        scrollTo: {
-                            y: finalScroll
-                        },
-                        ease: Expo.easeOut,
-                        overwrite: 5
-                    });
+              checkLoad();
+
+          }, false);
+
+          var imgLoad =  imagesLoaded('.media-container');
+
+          imgLoad.on( 'done', function( instance ) {
+           console.log('DONE  - all images have been successfully loaded');
+          });
+
+          imgLoad.on( 'progress', function( instance, image ) {
+            var result = image.isLoaded ? 'loaded' : 'broken';
+            console.log( 'image is ' + result + ' for ' + image.img.src );
+          });
+
+  }
+
+  scrollFunction() {
+              var ele = $('#main'),
+                  scrollTime = 1.2,
+                  scrollDistance = 170; 
+
+                require('mouse-wheel')(function(dx, dy, noScroll) {
+
+                  var delta = dy / 10,
+                      scrollTop = ele.scrollTop(),
+                      finalScroll = scrollTop - parseInt((delta * scrollDistance), 10);
+                     // console.log(delta, scrollTop,finalScroll);
+
+                      TweenMax.to(ele, scrollTime, {
+                          scrollTo: {
+                              y: finalScroll
+                          },
+                          ease: Expo.easeOut,
+                          overwrite: 5
+                      });
               })
 
+  }
 
-}
+  componentDidMount() {
+        //preloadFunction
+        this.preloadFunction(); 
 
-componentWillMount() {
-              var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-              console.log(isSafari)
+  }
 
-              //load scrollFunction
-              this.scrollFunction();        
-} 
+
+
+  componentWillMount() {
+                var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+                console.log('is safari? ' + isSafari)
+
+                //load scrollFunction
+                //this.scrollFunction();        
+  }
 
 
 
