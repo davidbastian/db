@@ -28,14 +28,12 @@ export default class App extends React.Component {
     return (
       <div className="main-wrap">
       		 <Header />
-           <Sidebar />
-               
+           <Sidebar />               
            <div id="site">                                             
               <ReactTransitionGroup component="div">
                {this.props.children}
               </ReactTransitionGroup>
-   
-                 
+                  
           </div>
             <Footer />
       </div>    

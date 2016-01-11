@@ -39,6 +39,15 @@ body {
     }
 }
 
+main {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
 .container {
     width: 90%;
     max-width: $max-width-container;
