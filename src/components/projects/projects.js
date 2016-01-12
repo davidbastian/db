@@ -22,7 +22,16 @@ class Video extends React.Component {
 componentDidMount() {
      var node = ReactDom.findDOMNode(this.refs.video);
     // console.log(node);
-     node.play();
+
+    setTimeout(function(){
+                  node.currentTime = 2
+     },500)
+
+    setTimeout(function(){
+                        node.play();
+    },600)
+
+     
 }
 
 
@@ -85,6 +94,11 @@ export default class projects extends React.Component {
                   if (video.readyState === 4) {
                       //preloader.parentNode.removeChild(preloader);
                       console.log('video is done')
+
+                     setTimeout(function(){
+                        video.play();
+                      },500)
+
                   } else {
                       setTimeout(checkLoad, 100);
                   }

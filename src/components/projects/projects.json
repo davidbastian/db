@@ -105,6 +105,12 @@
                     "links": [{
                         "src": "media/001a.jpg"
                     }]
+                }, {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/001.mp4"
+                    }]
                 }
 
             ]

@@ -73,7 +73,7 @@ main {
     padding-left: 5%;
     .slideItem {
         height: 53vh;
-        margin-right: 10px;
+        padding-right: 10px;
         display: inline-table;
         text-decoration: none;
         img {
@@ -90,6 +90,10 @@ main {
                 font-weight: 100;
                 font-style: italic;
             }
+        }
+        &:last-child {
+                padding-right:0px;
+
         }
     }
 }
