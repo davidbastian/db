@@ -37,7 +37,7 @@ componentDidMount() {
 
 render(){
      return (
-          <video  ref='video' loop="true">
+          <video preload="auto" ref='video' loop="true" autoPlay>
             <source src={this.props.video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -85,14 +85,12 @@ export default class projects extends React.Component {
               console.log('width:' +  (((countB = countB + 1) * 100) / imaSize) + '%');
           });*/
 
-          window.addEventListener('load', function() {
+          /*window.addEventListener('load', function() {
 
               var video =  document.getElementsByTagName('video')[0];
-              //var preloader = document.querySelector('.preloader');
 
               function checkLoad() {
                   if (video.readyState === 4) {
-                      //preloader.parentNode.removeChild(preloader);
                       console.log('video is done')
 
                      setTimeout(function(){
@@ -106,7 +104,7 @@ export default class projects extends React.Component {
 
               checkLoad();
 
-          }, false);
+          }, false);*/
 
           var imgLoad =  imagesLoaded('.media-container');
 
