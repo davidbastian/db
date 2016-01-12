@@ -3,13 +3,12 @@ import { Router, Route, IndexRoute, Link, IndexLink, RouteHandler  } from 'react
 import './introduction.scss'
 
 import gsap from 'gsap'  
+import scrolltoplugin from '../../../node_modules/gsap/src/uncompressed/plugins/ScrollToPlugin.js'
 import zepto from 'npm-zepto'
 
 import p from 'json!../projects/projects.json'
 const pjson = p.projects
 
-
-import jquerymousewheel from 'jquery-mousewheel'  
 
 
 class Introduction extends React.Component {
@@ -19,20 +18,34 @@ class Introduction extends React.Component {
 
 scrollFunction() {
 
-    require('mouse-wheel')
+   /* require('mouse-wheel')
 
     (function(dx, dy) {
       console.log('pluging:' + dy)
 
-    })
+    })*/
 
+  
 function displaywheel(e){
-    var evt=window.event || e //equalize event object
-    var delta=evt.detail? evt.detail/ 3 : evt.wheelDelta/ 120//check for detail first so Opera uses that instead of wheelDelta
+   var el= $('body'), //Window object
+  scrollTime = 2,
+  scrollDistance = 170; //Distance. Use smaller value for shorter scroll and greater value for longer scroll
+
+    var evt=window.event || e,//equalize event object
+    delta=evt.detail? evt.detail/ 3 : evt.wheelDelta/ 120,//check for detail first so Opera uses that instead of wheelDelta
+    scrollLeft = el.scrollLeft(),
+    finalScroll = scrollLeft - parseInt((delta * scrollDistance), 10);
 
 
-    console.log(delta) //delta returns +120 when wheel is scrolled up, -120 when down
+    console.log(finalScroll) //delta returns +120 when wheel is scrolled up, -120 when down
 
+    TweenMax.to(el, scrollTime, {
+                    scrollTo: {
+                        x: finalScroll
+                    },
+                    ease: Expo.easeOut, //For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
+                    overwrite: 5
+                });
 
 }
  
