@@ -19,14 +19,16 @@ class Introduction extends React.Component {
 
 scrollFunction() {
 
-    $("#main").on('mousewheel', function(event, delta) {
-            this.scrollLeft -= (delta * 2);
-            event.preventDefault();
+
+    $('body').on('mousewheel', function (event) {
+        this.scrollLeft += (event.deltaY * 2);
+        event.preventDefault();
     });
+
 }
 
 
-componentWillMount() {
+componentDidMount() {
      this.scrollFunction();
 }
 
