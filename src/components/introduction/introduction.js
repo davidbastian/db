@@ -27,17 +27,17 @@ scrollFunction() {
 
   
 function displaywheel(e){
-   var el= $('body'), //Window object
+   var el= $(window), //Window object
   scrollTime = 2,
-  scrollDistance = 170; //Distance. Use smaller value for shorter scroll and greater value for longer scroll
+  scrollDistance = 170, //Distance. Use smaller value for shorter scroll and greater value for longer scroll
 
-    var evt=window.event || e,//equalize event object
+    evt=window.event || e,//equalize event object
     delta=evt.detail? evt.detail/ 3 : evt.wheelDelta/ 120,//check for detail first so Opera uses that instead of wheelDelta
     scrollLeft = el.scrollLeft(),
     finalScroll = scrollLeft - parseInt((delta * scrollDistance), 10);
 
 
-    console.log(finalScroll) //delta returns +120 when wheel is scrolled up, -120 when down
+    console.log(finalScroll) 
 
     TweenMax.to(el, scrollTime, {
                     scrollTo: {
