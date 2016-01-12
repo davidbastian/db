@@ -86,10 +86,29 @@
             "role": "Design, Development, Art & Creative Direction.",
             "description": "For this project I did Art direction, Creative idea & Web Development, I used AngularJS for the Front-end Implementation and Wordpress for the Back-end, powered with GSAP TweenMax.",
             "link": "demo.html",
-            "img": "media/001.jpg"
-        },
+            "img": "media/001.jpg",
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/001.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/001b.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/001a.jpg"
+                    }]
+                }
 
-        {
+            ]
+        }, {
             "slug": "Allan Mcneill",
             "title": "<small>Chartered Accountants</small>Allan Mcneill",
             "role": "Design.",
