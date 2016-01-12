@@ -135,11 +135,29 @@
 
         {
             "slug": "Proposal Alloy Yachts",
-            "title": "Proposal <br> Alloy Yachts",
+            "title": "<small>Design Proposal</small> Alloy Yachts",
             "role": "Design and Development.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "description": "In this design proposal my idea was focused in the quality of the yachts therefore I tried to keep a clean and elegant design with lots of white space and an big percent of the site should be a powerful image.",
             "link": "demo.html",
-            "img": "media/004.jpg"
+            "img": "media/004.jpg", 
+
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/004.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/004a.jpg"
+                    }]
+                }
+
+            ]
+
+                
         },
 
         {
