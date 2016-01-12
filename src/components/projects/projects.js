@@ -108,6 +108,16 @@ export default class projects extends React.Component {
   }
 
   scrollFunction() {
+
+
+    $('body').on('mousewheel', function (event) {
+        this.scrollTop += (event.deltaY);
+        event.preventDefault();
+    });
+
+  }
+
+  /*scrollFunction() {
               var ele = $('#main'),
                   scrollTime = 1.2,
                   scrollDistance = 170; 
@@ -128,12 +138,13 @@ export default class projects extends React.Component {
                       });
               })
 
-  }
+  }*/
 
 
   componentDidMount() {
         //preloadFunction
         this.preloadFunction(); 
+        this.scrollFunction();  
   }
 
 
@@ -142,7 +153,7 @@ export default class projects extends React.Component {
                 console.log('is safari? ' + isSafari)
 
                 //load scrollFunction
-                //this.scrollFunction();        
+                    
   }
 
 

@@ -1,7 +1,7 @@
 {
-  "name": "r",
+  "name": "d",
   "version": "1.0.0",
-  "description": "r",
+  "description": "d",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server"
@@ -38,11 +38,9 @@
     "path": "^0.12.7",
     "react-addons-css-transition-group": "^0.14.3",
     "react-addons-transition-group": "^0.14.3",
-    "react-motion": "^0.3.1",
     "react-router-component": "^0.28.0",
     "react-router-component-transition": "^0.2.0",
     "react-static-container": "^1.0.0",
-    "reset.css": "^2.0.2",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",

@@ -9,6 +9,8 @@ import p from 'json!../projects/projects.json'
 const pjson = p.projects
 
 
+
+
 import jquerymousewheel from 'jquery-mousewheel'  
 
 
@@ -20,8 +22,8 @@ class Introduction extends React.Component {
 scrollFunction() {
 
 
-    $('body').on('mousewheel', function (event) {
-        this.scrollLeft += (event.deltaY * 2);
+     $('body').on('mousewheel', function (event) {
+         this.scrollLeft += (event.deltaY);
         event.preventDefault();
     });
 
