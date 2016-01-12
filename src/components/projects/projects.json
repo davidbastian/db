@@ -117,10 +117,20 @@
         }, {
             "slug": "Allan Mcneill",
             "title": "<small>Chartered Accountants</small>Allan Mcneill",
-            "role": "Design.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "role": "Look & Feel Design Direction.",
+            "description": "I did the look and feel, and the  begin of the design direction for this site. I tried to do a design focused in boxes with the same  proportion and big and clean spaces for the margins.",
             "link": "demo.html",
-            "img": "media/007.jpg"
+            "img": "media/007.jpg",
+             "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/007a.jpg"
+                    }]
+
+                    }
+                    ]
+                
         },
 
         {

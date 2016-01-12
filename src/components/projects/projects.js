@@ -29,7 +29,7 @@ componentDidMount() {
 
     setTimeout(function(){
                         node.play();
-    },600)
+    },1000)
 
      
 }
