@@ -29,7 +29,7 @@ scrollFunction() {
 function displaywheel(e){
    var el= $(window), //Window object
   scrollTime = 2,
-  scrollDistance = 170, //Distance. Use smaller value for shorter scroll and greater value for longer scroll
+  scrollDistance = 200, //Distance. Use smaller value for shorter scroll and greater value for longer scroll
 
     evt=window.event || e,//equalize event object
     delta=evt.detail? evt.detail/ 3 : evt.wheelDelta/ 120,//check for detail first so Opera uses that instead of wheelDelta

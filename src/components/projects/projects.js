@@ -119,7 +119,7 @@ export default class projects extends React.Component {
 
   }
 
-  scrollFunction() {
+  /*scrollFunction() {
 
 
     $('body').on('mousewheel', function (event) {
@@ -127,7 +127,7 @@ export default class projects extends React.Component {
         event.preventDefault();
     });
 
-  }
+  }*/
 
   /*scrollFunction() {
               var ele = $('#main'),
@@ -151,6 +151,54 @@ export default class projects extends React.Component {
               })
 
   }*/
+
+
+  scrollFunction() {
+
+   /* require('mouse-wheel')
+
+    (function(dx, dy) {
+      console.log('pluging:' + dy)
+
+    })*/
+
+  
+  function displaywheel(e){
+     var el= $(window), //Window object
+    scrollTime = 2,
+    scrollDistance = 270, //Distance. Use smaller value for shorter scroll and greater value for longer scroll
+
+      evt=window.event || e,//equalize event object
+      delta=evt.detail? evt.detail/ 3 : evt.wheelDelta/ 120,//check for detail first so Opera uses that instead of wheelDelta
+      scrollTop = el.scrollTop(),
+      finalScroll = scrollTop - parseInt((delta * scrollDistance), 10);
+
+
+      console.log(finalScroll) 
+
+      TweenMax.to(el, scrollTime, {
+                      scrollTo: {
+                          y: finalScroll
+                      },
+                      ease: Expo.easeOut, //For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
+                      overwrite: 5
+                  });
+
+  }
+   
+  var mousewheelevt=(/Firefox/i.test(navigator.userAgent))? "DOMMouseScroll" : "mousewheel" //FF doesn't recognize mousewheel as of FF3.x
+   
+      if (document.attachEvent) {//if IE (and Opera depending on user setting)}
+          document.attachEvent("on"+mousewheelevt, displaywheel)
+      }
+      else if (document.addEventListener){ //WC3 browsers
+          document.addEventListener(mousewheelevt, displaywheel, false)
+      }
+
+
+
+
+  }
 
 
   componentDidMount() {
