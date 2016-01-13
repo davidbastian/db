@@ -153,7 +153,20 @@
                     "links": [{
                         "src": "media/004a.jpg"
                     }]
+                }, {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/004a.mp4"
+                    }]
+                }, {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/004.mp4"
+                    }]
                 }
+
 
             ]
 
@@ -162,10 +175,22 @@
 
         {
             "slug": "Super Diversity Centre",
+            "title": "<small>Centre</small> Super Diversity",
             "role": "Interaction Design & Front End Development.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "description": "This project was really enjoyable because aside from doing the Front-end with ajax to load each page, I was also  a challenge for the background making a nice animation with 'the gooey effect' and a blur filter. So, the result was a smooth animation just with pure Css.",
             "link": "demo.html",
-            "img": "media/011.jpg"
+            "img": "media/011.jpg", 
+
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/011.jpg"
+                    }]
+                }
+
+
+            ]
         },
 
         {
