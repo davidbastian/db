@@ -280,14 +280,6 @@
         },
 
         {
-            "slug": "Proposal Andes Films",
-            "role": "Design.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/012.jpg"
-        },
-
-        {
             "slug": "Hino Trucks",
             "role": "Interaction Design & Front End Development.",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
@@ -365,14 +357,6 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
             "link": "demo.html",
             "img": "media/006.jpg"
-        },
-
-        {
-            "slug": "Proposal Birding Chile",
-            "role": "Design, Develop.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/021.jpg"
         },
 
         {
