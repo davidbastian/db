@@ -215,7 +215,7 @@
 
         {
             "slug": "Designworks",
-            "title": "<small>Agency</small> Desigworks",
+            "title": "<small>Agency</small> Designworks",
             "role": "Interaction Design & Front End Development.",
             "description": "I worked in this project  making the frontend and interactions. How the design idea was clean, I tried  to not saturate the site with animations, and just I did a nice an elegant FadeIn/FadeOut  through the site.",
             "link": "demo.html",
@@ -261,10 +261,22 @@
 
         {
             "slug": "The Choice Protocol",
+            "title": "<small>Students first</small> The Choice Protocol",
             "role": "Interaction Design & Front End Development.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "description": "For this project I did at least 3 proposals, but this one, was the one that I more liked. I did Interfaces Design, Frontend and Backend in Wordpress, anyway I put some screenshot of the other proposals too, and the final one.",
             "link": "demo.html",
-            "img": "media/020.jpg"
+            "img": "media/020.jpg",
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/020.jpg"
+                    }
+                    ]
+                }
+
+
+            ]
         },
 
         {
