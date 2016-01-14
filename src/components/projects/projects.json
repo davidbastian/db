@@ -186,6 +186,26 @@
                     "enabled": 1,
                     "links": [{
                         "src": "media/011.jpg"
+                    }
+                    ]
+                },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/011a.jpg"
+                    }
+                    ]
+                }, {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/011.mp4"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/011b.jpg"
                     }]
                 }
 
