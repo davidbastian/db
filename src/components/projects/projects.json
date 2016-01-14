@@ -227,6 +227,19 @@
                         "src": "media/025b.jpg"
                     }
                     ]
+                }, {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/025.mp4"
+                    }]
+                },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/025c.jpg"
+                    }
+                    ]
                 }
 
 
