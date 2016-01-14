@@ -240,6 +240,18 @@
                         "src": "media/025c.jpg"
                     }
                     ]
+                }, {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/025a.mp4"
+                    }]
+                }, {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/025b.mp4"
+                    }]
                 }
 
 
