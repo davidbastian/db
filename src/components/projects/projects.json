@@ -215,10 +215,22 @@
 
         {
             "slug": "Designworks",
+            "title": "<small>Agency</small> Desigworks",
             "role": "Interaction Design & Front End Development.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
+            "description": "I worked in this project  making the frontend and interactions. How the design idea was clean, I tried  to not saturate the site with animations, and just I did a nice an elegant fadein-fadeout  through the site.",
             "link": "demo.html",
-            "img": "media/025.jpg"
+            "img": "media/025a.jpg",
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/025b.jpg"
+                    }
+                    ]
+                }
+
+
+            ]
         },
 
 
