@@ -239,7 +239,16 @@ export default class projects extends React.Component {
 
           <div className="descriptionInner">
                 <h2 key={'h2'} dangerouslySetInnerHTML={{__html: newProject[0].title}} /> 
-                <p  key={'p'} dangerouslySetInnerHTML={{__html: newProject[0].description}} /> 
+
+                <div className="credits">
+                    <p  key={'p'} dangerouslySetInnerHTML={{__html: newProject[0].description}} /> 
+                      <ul>
+                            <li>Agency: Designworks</li>
+                            <li>Year: 2015</li>
+                            <li><a href="#"><span className="see">Take a Look</span><span className="plane"></span></a></li>
+                      </ul>
+                </div>
+ 
            </div>       
         
         </div> 
