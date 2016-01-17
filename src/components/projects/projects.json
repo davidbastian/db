@@ -4,7 +4,9 @@
             "title": "<small>Gallipoli:</small>The Scale of War",
             "role": "Interaction Design & Front End Development.",
             "description": "I did wireframes, Front-end, and Interaction design. using GSAP for the animations & AngularJS for the implemetation, also I got a Gold Best Awards NZ for this site.",
-            "link": "demo.html",
+            "link": "http://www.gallipoli.tepapa.govt.nz/scrubber",
+            "year": "2015",
+            "agency": "Designworks",
             "img": "media/009.jpg",
             "media": [{
                 "type": "image",
@@ -43,8 +45,9 @@
             "title": "<small>Events centre</small>Manfeild",
             "role": "Design.",
             "description": "I did wireframes, art direction and design using Adobe Photoshop, the main idea for this project was take the colors of the main photography of the page and implement in each of its segments.",
-            "link": "demo.html",
             "img": "media/008.jpg",
+            "year": "2013",
+            "agency": "Blacksheepdesign",
             "media": [{
                     "type": "image",
                     "enabled": 1,
@@ -85,7 +88,8 @@
             "title": "<small>Speaker, Couch & Consultant</small>Christian Andrada",
             "role": "Design, Development, Art & Creative Direction.",
             "description": "For this project I did Art direction, Creative idea & Web Development, I used AngularJS for the Front-end Implementation and Wordpress for the Back-end, powered with GSAP TweenMax.",
-            "link": "demo.html",
+            "link": "http://www.christianandrada.com",
+            "year": "2015",
             "img": "media/001.jpg",
             "media": [{
                     "type": "image",
@@ -97,13 +101,13 @@
                     "type": "image",
                     "enabled": 1,
                     "links": [{
-                        "src": "media/001b.jpg"
+                        "src": "media/001a.jpg"
                     }]
                 }, {
                     "type": "image",
                     "enabled": 1,
                     "links": [{
-                        "src": "media/001a.jpg"
+                        "src": "media/001b.jpg"
                     }]
                 }, {
                     "type": "video",
@@ -119,7 +123,8 @@
             "title": "<small>Chartered Accountants</small>Allan Mcneill",
             "role": "Look & Feel Design Direction.",
             "description": "I did the look and feel, and the  begin of the design direction for this site. I tried to do a design focused in boxes with the same  proportion and big and clean spaces for the margins.",
-            "link": "demo.html",
+            "year": "2013",
+            "agency": "Blacksheepdesign",
             "img": "media/007.jpg",
              "media": [{
                     "type": "image",
@@ -138,7 +143,8 @@
             "title": "<small>Design Proposal</small> Alloy Yachts",
             "role": "Design and Development.",
             "description": "In this design proposal my idea was focused in the quality of the yachts therefore I tried to keep a clean and elegant design with lots of white space and an big percent of the site should be a powerful image.",
-            "link": "demo.html",
+            "year": "2014",
+            "agency": "Designworks",
             "img": "media/004.jpg", 
 
             "media": [{
@@ -177,8 +183,10 @@
             "slug": "Super Diversity Centre",
             "title": "<small>Centre</small> Super Diversity",
             "role": "Interaction Design & Front End Development.",
-            "description": "This project was really enjoyable because aside from doing the Front-end with ajax to load each page, I was also  a challenge for the background making a nice animation with 'the gooey effect' and a blur filter. So, the result was a smooth animation just with pure Css.",
-            "link": "demo.html",
+            "description": "This project was really enjoyable because aside from doing the Front-end with ajax to load each page, I was also  a challenge for the background making a nice animation with 'the gooey effect' and a blur filter. So, the result was a smooth animation just with pure CSS.",
+            "link": "http://www.superdiversity.org",
+            "year": "2015",
+            "agency": "Designworks",
             "img": "media/011.jpg", 
 
             "media": [{
@@ -218,7 +226,9 @@
             "title": "<small>Agency</small> Designworks",
             "role": "Interaction Design & Front End Development.",
             "description": "I worked in this project  making the frontend and interactions. How the design idea was clean, I tried  to not saturate the site with animations, and just I did a nice an elegant FadeIn/FadeOut  through the site.",
-            "link": "demo.html",
+            "link": "http://www.designworks.com",
+            "year": "2014",
+            "agency": "Designworks",
             "img": "media/025a.jpg",
             "media": [{
                     "type": "image",
@@ -264,7 +274,8 @@
             "title": "<small>Students first</small>Choice Protocol",
             "role": "Interaction Design & Front End Development.",
             "description": "For this project I did at least 3 proposals, but this one, was the one that I more liked. I did Interfaces Design, Frontend and Backend in Wordpress, anyway I put some screenshot of the other proposals too, and the final one.",
-            "link": "demo.html",
+            "year": "2015",
+            "agency": "Designworks",
             "img": "media/020.jpg",
             "media": [{
                     "type": "image",
@@ -273,13 +284,7 @@
                         "src": "media/020.jpg"
                     }
                     ]
-                }, {
-                    "type": "video",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "http://www.davidbastian.cl/proyectos/media/020a.mp4"
-                    }]
-                }, {
+                },  {
                     "type": "image",
                     "enabled": 1,
                     "links": [{
@@ -290,6 +295,12 @@
                     "enabled": 1,
                     "links": [{
                         "src": "media/020b.jpg"
+                    }]
+                },{
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/020a.mp4"
                     }]
                 }, {
                     "type": "video",
@@ -305,28 +316,165 @@
 
         {
             "slug": "Hino Trucks",
+            "title": "<small>New Zealand</small>Hino Trucks",
             "role": "Interaction Design & Front End Development.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/023.jpg"
+            "description": "Interfaces Design and Front-end for Hino Trucks, It was required  a responsive website, with great images and modern transitions and interactions with the user, applying knowledge of CSS3 and jQuery for the development.",
+            "link": "http://www.davidbastian.cl/proyectos/hino/preview/",
+            "year": "2014",
+            "agency": "Blacksheepdesign",
+            "img": "media/023.jpg",
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/023a.jpg"
+                    }
+                    ]
+                },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/023c.jpg"
+                    }
+                    ]
+                }, {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/023.mp4"
+                    }]
+                },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/023d.jpg"
+                    }
+                    ]
+                },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/023e.jpg"
+                    }
+                    ]
+                },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/023f.jpg"
+                    }
+                    ]
+                }
+                  
+
+
+            ]
+
         },
 
         {
             "slug": "Proposal Blacksheepdesign",
+            "title": "<small>Proposal</small> Blacksheepdesign",
             "role": "Design.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/014.jpg"
+            "description": "I did a digital design proposal for the site of this agency. I tried to keep a simple design focused in its slogan (We love design), playing a little with that words, keeping a fresh and minimalist design.",
+             "year": "2013",
+            "agency": "Blacksheepdesign",
+            "img": "media/014b.jpg",
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/014b.jpg"
+                    }
+                    ]
+                },
+                {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/014.mp4"
+                    }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/014a.jpg"
+                    }
+                    ]
+                },{
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/014a.mp4"
+                    }
+                    ]
+                },{
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/014b.mp4"
+                    }
+                    ]
+                },{
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/014c.mp4"
+                    }
+                    ]
+                }
+                ]
         },
 
         {
             "slug": "Barltop Graham",
-            "role": "Interaction Design & Development.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/010.jpg"
-        },
-
+            "title": "<small>Design Proposal</small>Barltop Graham",
+            "role": "Look & Feel Direction.",
+            "description": "Always I have liked and enjoyed follow the golden rules in design process, So for this proposal I have used the golden ratio (fibonacci) for the whole design. A clean & elegant design keeping the target of the client.",
+            "year": "2013",
+            "agency": "Blacksheepdesign",
+            "img": "media/010.jpg",
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/010.jpg"
+                    }
+                    ]
+                },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/010a.jpg"
+                    }
+                    ]
+                },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/010b.jpg"
+                    }
+                    ]
+                },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/010c.jpg"
+                    }
+                    ]
+                },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/010d.jpg"
+                    }
+                    ]
+                }
+                ]
+            }
+        ,
         {
             "slug": "Wadham & Partners",
             "role": "Interaction Design & Development.",

@@ -18,14 +18,6 @@ class Introduction extends React.Component {
 
 scrollFunction() {
 
-   /* require('mouse-wheel')
-
-    (function(dx, dy) {
-      console.log('pluging:' + dy)
-
-    })*/
-
-  
 function displaywheel(e){
    var el= $(window), //Window object
   scrollTime = 2,
@@ -49,7 +41,7 @@ function displaywheel(e){
 
 }
  
-var mousewheelevt=(/Firefox/i.test(navigator.userAgent))? "DOMMouseScroll" : "mousewheel" //FF doesn't recognize mousewheel as of FF3.x
+    var mousewheelevt=(/Firefox/i.test(navigator.userAgent))? "DOMMouseScroll" : "mousewheel" //FF doesn't recognize mousewheel as of FF3.x
  
     if (document.attachEvent) {//if IE (and Opera depending on user setting)}
         document.attachEvent("on"+mousewheelevt, displaywheel)

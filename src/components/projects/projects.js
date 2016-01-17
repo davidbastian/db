@@ -154,14 +154,6 @@ export default class projects extends React.Component {
 
 
   scrollFunction() {
-
-   /* require('mouse-wheel')
-
-    (function(dx, dy) {
-      console.log('pluging:' + dy)
-
-    })*/
-
   
   function displaywheel(e){
      var el= $(window), //Window object
@@ -174,14 +166,18 @@ export default class projects extends React.Component {
       finalScroll = scrollTop - parseInt((delta * scrollDistance), 10);
 
 
-      console.log(finalScroll) 
+      //console.log(finalScroll) 
 
       TweenMax.to(el, scrollTime, {
                       scrollTo: {
                           y: finalScroll
                       },
                       ease: Expo.easeOut, //For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
-                      overwrite: 5
+                      overwrite: 5, 
+                      onComplete: function(){
+                          console.log('done scroll');
+
+                      }
                   });
 
   }
@@ -243,9 +239,15 @@ export default class projects extends React.Component {
                 <div className="credits">
                     <p  key={'p'} dangerouslySetInnerHTML={{__html: newProject[0].description}} /> 
                       <ul>
-                            <li>Agency: Designworks</li>
-                            <li>Year: 2015</li>
-                            <li><a href="#"><span className="see">Take a Look</span><span className="plane"></span></a></li>
+                            { newProject[0].agency &&
+                               <li>Agency: {newProject[0].agency}</li>
+                            }
+                            { newProject[0].year &&
+                               <li>Year: {newProject[0].year}</li>
+                            }
+                            { newProject[0].link &&
+                               <li><a target="_blank" href={newProject[0].link}><span className="see">Take a Look</span><span className="plane"></span></a></li>
+                            }
                       </ul>
                 </div>
  
