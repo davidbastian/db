@@ -477,11 +477,35 @@
         ,
         {
             "slug": "Wadham & Partners",
+            "title": "<small>Lawyers</small>Wadham & Partners",
             "role": "Interaction Design & Development.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/005.jpg"
-        },
+            "year": "2014",
+            "agency": "Blacksheepdesign",           
+            "description": "In this project i did Design, Front-end & Back-end, Main idea for this site it was make a clean design, elegant, with a nice contrast between big and small font types getting a fresh and contemporary experience through the site.",
+            "link": "http://wadham.co.nz/",
+            "img": "media/005.jpg",
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/005a.jpg"
+                    }]
+                    },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/005b.jpg"
+                    }
+                    ]
+            },{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/005c.jpg"
+                    }
+                    ]
+            }
+        ]},
 
         {
             "slug": "Cinemagica",
