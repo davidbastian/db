@@ -504,6 +504,13 @@
                         "src": "media/005c.jpg"
                     }
                     ]
+            },{
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/005.mp4"
+                    }
+                    ]
             }
         ]},
 
