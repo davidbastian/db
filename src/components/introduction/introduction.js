@@ -29,7 +29,7 @@ function displaywheel(e){
     finalScroll = scrollLeft - parseInt((delta * scrollDistance), 10);
 
 
-    console.log(finalScroll) 
+    //console.log(finalScroll) 
 
     TweenMax.to(el, scrollTime, {
                     scrollTo: {

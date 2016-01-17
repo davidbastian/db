@@ -175,7 +175,8 @@ export default class projects extends React.Component {
                       ease: Expo.easeOut, //For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
                       overwrite: 5, 
                       onComplete: function(){
-                          console.log('done scroll');
+                          console.log('done scroll',$(window).scrollTop());
+                          
 
                       }
                   });
