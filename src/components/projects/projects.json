@@ -514,13 +514,6 @@
             }
         ]},
 
-        {
-            "slug": "Cinemagica",
-            "role": "Interaction Design & Front End Development.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/015.jpg"
-        },
 
         {
             "slug": "Wellington Airport Annual Report",

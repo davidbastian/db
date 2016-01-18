@@ -62,81 +62,73 @@ export default class projects extends React.Component {
 
   preloadFunction(){
 
-        $('video').each(function(){
-                var video =  $(this)[0];
-
-                      function checkLoad() {
-                          if (video.readyState === 4) {
-                              console.log('video is done')
-
-                             setTimeout(function(){
-                                video.play();
-                              },500)
-
-                          } else {
-                              setTimeout(checkLoad, 100);
-                          }
-                      }
-                      checkLoad();
-        });
+     function listo() {
+        console.log('listo')
+     }
 
 
 
-        /* imgLoad.on( 'progress', function( instance, image ) {
-          var result = image.isLoaded ? 'loaded' : 'broken';
-          console.log( 'image is ' + result + ' for ' + image.img.src );
-        });*/
+          var imgLoad =  imagesLoaded('.media-container'),
+              countB = 0,
+              imaSize = $('.media-container').find('img').size(),
+              videoSize = $('.media-container').find('video').size(),
+              mediaSize = $('.media-container').find('.media').size(),
+              averageImage = (imaSize*100)/mediaSize,
+              averageVideo = (videoSize*100)/mediaSize;
 
-         /* var countB = 1,
-          imaSize = $('.media-container').find('img').size();
-
-          imagesLoaded('.media-container').always(function (instance) {
-              // console.log('all images loaded');
-
-          }).done(function (instance) {
-              //console.log('done');
-
-          }).fail(function () {
-              //console.log('fail');
-
-          }).progress(function (instance, image) {
-              var result = image.isLoaded ? 'loaded' : 'broken';
-              
-              console.log('width:' +  (((countB = countB + 1) * 100) / imaSize) + '%');
-          });*/
-
-          /*window.addEventListener('load', function() {
-
-              var video =  document.getElementsByTagName('video')[0];
-
-              function checkLoad() {
-                  if (video.readyState === 4) {
-                      console.log('video is done')
-
-                     setTimeout(function(){
-                        video.play();
-                      },500)
-
-                  } else {
-                      setTimeout(checkLoad, 100);
-                  }
-              }
-
-              checkLoad()
-
-          }, false);*/
-
-          var imgLoad =  imagesLoaded('.media-container');
-
-          imgLoad.on( 'done', function( instance ) {
-           console.log('DONE  - all images have been successfully loaded');
-          });
 
           imgLoad.on( 'progress', function( instance, image ) {
             var result = image.isLoaded ? 'loaded' : 'broken';
-            console.log( 'image is ' + result + ' for ' + image.img.src );
+            var ima = (((countB = countB + 1) * averageImage) / imaSize);
+
+              console.log('loading-image:' +  ima + '% ' + image.img.src);
+
+              if (ima === 100) {                                 
+               listo();
+              }
           });
 
+          imgLoad.on( 'done', function( instance ) {     
+                               
+                   $('video').each(function(i,elm){
+                // do stuff 
+                    var video =  $(this)[0];
+
+                                      function checkLoad() {
+                                          if (video.readyState === 4) {
+
+                                                var vid = (((countB = countB + 1) * averageVideo) / videoSize);
+
+                                             console.log('loading-video:' +  vid + '% ' + video.firstChild.getAttribute("src"));
+
+                                             setTimeout(function(){
+                                               
+                                                video.play();
+
+                                                if (vid === 100) {
+
+                                                  listo();
+
+                                                }
+
+                                              },500)
+
+                                          } else {
+                                              setTimeout(checkLoad, 100);
+                                          }
+                                      }
+                                      checkLoad();
+
+
+                  });
+
+                
+
+
+
+          });
+
+          
   }
 
   
@@ -155,21 +147,13 @@ export default class projects extends React.Component {
 
 
       //console.log(finalScroll) 
-    
-   /* var varCounter = 0;
 
-    var varName = function(){
-              varCounter++;
-             
-              console.log(varCounter)
-    };*/
 
-   var myVar;
+  var myVar;
    var varCounter = 0;
 
-      function myUp() {
+      /*function myUp() {
             varCounter++;
-              /* your code goes here */
               console.log($('body').scrollTop() + varCounter);
             TweenLite.to($('body'), 2, {
                   scrollTo: {
@@ -181,7 +165,6 @@ export default class projects extends React.Component {
 
       function myDown() {
             varCounter--;
-              /* your code goes here */
               console.log($('body').scrollTop() + varCounter);
 
               TweenLite.to($('body'), 2, {
@@ -190,13 +173,8 @@ export default class projects extends React.Component {
                   },
                   ease: Expo.easeOut
               });
-          //  console.log()
-      }
-
-
-      function myStopFunction() {
-          clearInterval(myVar);
-      }
+          
+      }*/
 
     TweenMax.to(el, scrollTime, {
                       scrollTo: {
@@ -205,17 +183,20 @@ export default class projects extends React.Component {
                       ease: Expo.easeOut, //For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
                       overwrite: 5, 
                       onStart: function(){
-
+                            
+                            /*
                             var highestTimeoutId = setInterval(";");
                             for (var i = 0 ; i < highestTimeoutId ; i++) {
                                  clearInterval(i); 
                             }
                               console.log('start');
+
+                              */
                       },
 
                       onComplete: function(){
                          
-                              console.log('complete scroll',$(window).scrollTop());
+                       /*       console.log('complete scroll',$(window).scrollTop());
                               $('body').attr('data-s', $(window).scrollTop())
 
                         
@@ -232,20 +213,10 @@ export default class projects extends React.Component {
                         }
 
                       }
+                      */
 
-                      /*    var lastScrollTop = 0;
-                        var st = $(window).scrollTop();
-
-                               if (st > lastScrollTop){
-                                   console.log('down')
-                               } else {
-                                  console.log('up')
-                               }
-                               lastScrollTop = st;
-                        
-                        
-
-                      }*/
+                    }
+            
                   });
 
   }
