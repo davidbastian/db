@@ -156,8 +156,48 @@ export default class projects extends React.Component {
 
       //console.log(finalScroll) 
     
+   /* var varCounter = 0;
 
-      TweenMax.to(el, scrollTime, {
+    var varName = function(){
+              varCounter++;
+             
+              console.log(varCounter)
+    };*/
+
+   var myVar;
+   var varCounter = 0;
+
+      function myUp() {
+            varCounter++;
+              /* your code goes here */
+            TweenLite.to(window, 2, {
+                  scrollTo: {
+                      y: $(window).scrollTop() + varCounter,
+                  },
+                   ease: Expo.easeOut
+              });
+      }
+
+      function myDown() {
+            varCounter--;
+              /* your code goes here */
+
+
+              TweenLite.to(window, .6, {
+                  scrollTo: {
+                      y: $(window).scrollTop() + varCounter,
+                  },
+                  ease: Power0.easeNone
+              });
+          //  console.log()
+      }
+
+
+      function myStopFunction() {
+          clearInterval(myVar);
+      }
+
+    TweenMax.to(el, scrollTime, {
                       scrollTo: {
                           y: finalScroll
                       },
@@ -165,19 +205,26 @@ export default class projects extends React.Component {
                       overwrite: 5, 
                       onStart: function(){
 
-                            console.log('start');
+                            var highestTimeoutId = setInterval(";");
+                            for (var i = 0 ; i < highestTimeoutId ; i++) {
+                                 clearInterval(i); 
+                            }
+                              console.log('start');
                       },
 
                       onComplete: function(){
-                          console.log('done scroll',$(window).scrollTop());
-
-
+                         
+                              console.log('complete scroll',$(window).scrollTop());
+                        
                         if (delta >= 0 ) {
 
                                 console.log('Scroll up');
+                                 var myVar = setInterval(function(){ myDown() }, 600);
+
                         } else {
 
                                  console.log('Scroll down');
+                                 var myVar = setInterval(function(){ myUp() }, 600);
 
                         }
 
