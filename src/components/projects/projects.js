@@ -62,7 +62,6 @@ export default class projects extends React.Component {
 
   preloadFunction(){
 
-
         $('video').each(function(){
                 var video =  $(this)[0];
 
@@ -140,7 +139,7 @@ export default class projects extends React.Component {
 
   }
 
-
+  
 
   scrollFunction() {
   
@@ -156,6 +155,7 @@ export default class projects extends React.Component {
 
 
       //console.log(finalScroll) 
+    
 
       TweenMax.to(el, scrollTime, {
                       scrollTo: {
@@ -163,11 +163,39 @@ export default class projects extends React.Component {
                       },
                       ease: Expo.easeOut, //For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
                       overwrite: 5, 
+                      onStart: function(){
+
+                            console.log('start');
+                      },
+
                       onComplete: function(){
                           console.log('done scroll',$(window).scrollTop());
-                          
+
+
+                        if (delta >= 0 ) {
+
+                                console.log('Scroll up');
+                        } else {
+
+                                 console.log('Scroll down');
+
+                        }
 
                       }
+
+                      /*    var lastScrollTop = 0;
+                        var st = $(window).scrollTop();
+
+                               if (st > lastScrollTop){
+                                   console.log('down')
+                               } else {
+                                  console.log('up')
+                               }
+                               lastScrollTop = st;
+                        
+                        
+
+                      }*/
                   });
 
   }
