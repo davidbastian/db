@@ -1,4 +1,5 @@
 import React from 'react'
+import { Router, Route, IndexRoute, Link, IndexLink, RouteHandler  } from 'react-router'
 import './navbar.scss'
 
 const  brand = {
@@ -24,7 +25,12 @@ export default class navbar extends React.Component {
 
 		      <ul id="menu">
 		      	<li>
-		      		<a href="">+ About me</a>
+
+		      		<Link key="about"  to="about">
+                                    + About me
+                               </Link>
+
+
 		      	</li>
 		      	<li>
 		      		<a href="mailto:d@davidbastian.cl">+ d@davidbastian.cl</a>

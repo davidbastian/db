@@ -517,10 +517,21 @@
 
         {
             "slug": "Wellington Airport Annual Report",
-            "role": "Interaction Design & Front End Development.",
+            "title": "<small>Annual Report</small>Wellington Airport",
+            "role": "Interaction Design & Development.",
+            "year": "2014",
+            "agency": "Designworks",   
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
             "link": "demo.html",
-            "img": "media/016.jpg"
+            "img": "media/016.jpg",
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/016.jpg"
+                    }]
+                    }
+        ]
         },
 
         {

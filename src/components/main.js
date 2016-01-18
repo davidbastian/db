@@ -10,6 +10,7 @@ import { createHistory, useBasename } from 'history'
 
 import Introduction from './introduction/introduction'
 import Projects from './projects/projects.js'
+import About from './about/about.js'
 
 
 import p from 'json!./projects/projects.json' 
@@ -26,6 +27,7 @@ import App from './app/app'
   queryKey: ''
 });*/
 
+
 const routeConfig = [
   { path: '/',
     component: App,
@@ -35,7 +37,8 @@ const routeConfig = [
     },
 
     childRoutes: [
-      { path: '/:slug', component: Projects },
+       { path: 'about', component: About },
+      { path: '/:slug', component: Projects }
     ]
   }
 ]
