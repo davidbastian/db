@@ -23,13 +23,13 @@ componentDidMount() {
      var node = ReactDom.findDOMNode(this.refs.video);
     // console.log(node);
 
-    setTimeout(function(){
+    /*setTimeout(function(){
                   node.currentTime = 2
      },500)
 
     setTimeout(function(){
                         node.play();
-    },1000)
+    },1000)*/
 
      
 }
@@ -61,6 +61,27 @@ class Image extends React.Component {
 export default class projects extends React.Component {
 
   preloadFunction(){
+
+
+        $('video').each(function(){
+                var video =  $(this)[0];
+
+                      function checkLoad() {
+                          if (video.readyState === 4) {
+                              console.log('video is done')
+
+                             setTimeout(function(){
+                                video.play();
+                              },500)
+
+                          } else {
+                              setTimeout(checkLoad, 100);
+                          }
+                      }
+                      checkLoad();
+        });
+
+
 
         /* imgLoad.on( 'progress', function( instance, image ) {
           var result = image.isLoaded ? 'loaded' : 'broken';
@@ -102,7 +123,7 @@ export default class projects extends React.Component {
                   }
               }
 
-              checkLoad();
+              checkLoad()
 
           }, false);*/
 
@@ -119,38 +140,6 @@ export default class projects extends React.Component {
 
   }
 
-  /*scrollFunction() {
-
-
-    $('body').on('mousewheel', function (event) {
-        this.scrollTop += (event.deltaY);
-        event.preventDefault();
-    });
-
-  }*/
-
-  /*scrollFunction() {
-              var ele = $('#main'),
-                  scrollTime = 1.2,
-                  scrollDistance = 170; 
-
-                require('mouse-wheel')(function(dx, dy, noScroll) {
-
-                  var delta = dy / 10,
-                      scrollTop = ele.scrollTop(),
-                      finalScroll = scrollTop - parseInt((delta * scrollDistance), 10);
-                     // console.log(delta, scrollTop,finalScroll);
-
-                      TweenMax.to(ele, scrollTime, {
-                          scrollTo: {
-                              y: finalScroll
-                          },
-                          ease: Expo.easeOut,
-                          overwrite: 5
-                      });
-              })
-
-  }*/
 
 
   scrollFunction() {
