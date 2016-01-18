@@ -170,9 +170,10 @@ export default class projects extends React.Component {
       function myUp() {
             varCounter++;
               /* your code goes here */
-            TweenLite.to(window, 2, {
+              console.log($('body').scrollTop() + varCounter);
+            TweenLite.to($('body'), 2, {
                   scrollTo: {
-                      y: $(window).scrollTop() + varCounter,
+                      y:   $('body').scrollTop() + varCounter,
                   },
                    ease: Expo.easeOut
               });
@@ -181,13 +182,13 @@ export default class projects extends React.Component {
       function myDown() {
             varCounter--;
               /* your code goes here */
+              console.log($('body').scrollTop() + varCounter);
 
-
-              TweenLite.to(window, .6, {
+              TweenLite.to($('body'), 2, {
                   scrollTo: {
-                      y: $(window).scrollTop() + varCounter,
+                      y:    $('body').scrollTop() + varCounter,
                   },
-                  ease: Power0.easeNone
+                  ease: Expo.easeOut
               });
           //  console.log()
       }
@@ -215,6 +216,8 @@ export default class projects extends React.Component {
                       onComplete: function(){
                          
                               console.log('complete scroll',$(window).scrollTop());
+                              $('body').attr('data-s', $(window).scrollTop())
+
                         
                         if (delta >= 0 ) {
 
