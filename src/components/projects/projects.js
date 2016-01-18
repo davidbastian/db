@@ -66,8 +66,6 @@ export default class projects extends React.Component {
         console.log('listo')
      }
 
-
-
           var imgLoad =  imagesLoaded('.media-container'),
               countB = 0,
               imaSize = $('.media-container').find('img').size(),
