@@ -8,7 +8,7 @@ import zepto from 'npm-zepto'
 import imagesLoaded from 'imagesLoaded'
 
 
-import DocumentMeta from 'react-document-meta';
+import DocumentMeta from 'react-document-meta'
 
 import p from 'json!../projects/projects.json'
 
@@ -43,7 +43,7 @@ preloadFunction(){
                listo();
               }
           });      
-  }
+}
 
 
 
@@ -86,54 +86,26 @@ function displaywheel(e){
 
 }
 
-  componentDidMount() {
+componentDidMount() {
         //preloadFunction
         this.preloadFunction(); 
         this.scrollFunction();  
-  }
-
-
-/*componentWillAppear(callback) {
-    this.hola(callback);
-}
-
-componentWillLeave(callback) {
-    this.chao(callback);
 }
 
 
-hola(callback){
-    console.log('appear')
-}
-
-chao(callback){
-    console.log('leave')
-
-    setTimeout(function(){
-            $('.slideItem').css('opacity',0);
-
-    },2000)
-   
-}*/
-
-
-
-  render() { 
+render() { 
 
     const meta = {
-      title: 'Some Meta Title',
-      description: 'I am a description, and I can create multiple tags',
-      canonical: 'http://example.com/path/to/page',
+      title: 'David Bastian. Chilean Designer & Web Developer.',
+      description: 'I am a Designer & Web Developer from Viña del Mar (Chile), but I am based in New Zealand. I love to enjoy and create Good Art, Conceptualising and Designing simple and clean interfaces.',
+      //canonical: 'http://example.com/path/to/page',
       meta: {
         charset: 'utf-8',
         name: {
-          keywords: 'react,meta,document,html,tags'
+          keywords: 'design,art direction,creative,product design,interaction design,interfaces design,chile,web,frontend,backend,reactjs,angularjs.'
         }
       }
     };
-
-
-    
 
     return (
       <div className="slides"> 

@@ -10,6 +10,8 @@ import zepto from 'npm-zepto'
 
 import imagesLoaded from 'imagesLoaded'
 
+import DocumentMeta from 'react-document-meta'
+
 import p from 'json!./projects.json'
 const pjson = p.projects
 
@@ -21,17 +23,7 @@ class Video extends React.Component {
 
 componentDidMount() {
      var node = ReactDom.findDOMNode(this.refs.video);
-    // console.log(node);
 
-    /*setTimeout(function(){
-                  node.currentTime = 2
-     },500)
-
-    setTimeout(function(){
-                        node.play();
-    },1000)*/
-
-     
 }
 
 
@@ -86,8 +78,7 @@ export default class projects extends React.Component {
               }
           });
 
-          imgLoad.on( 'done', function( instance ) {     
-                               
+          imgLoad.on( 'done', function( instance ) {
                    $('video').each(function(i,elm){
                 // do stuff 
                     var video =  $(this)[0];
@@ -104,9 +95,7 @@ export default class projects extends React.Component {
                                                 video.play();
 
                                                 if (vid === 100) {
-
                                                   listo();
-
                                                 }
 
                                               },500)
@@ -119,11 +108,6 @@ export default class projects extends React.Component {
 
 
                   });
-
-                
-
-
-
           });
 
           
@@ -244,8 +228,6 @@ export default class projects extends React.Component {
   componentWillMount() {
                 var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
                 console.log('is safari? ' + isSafari)
-
-                //load scrollFunction
                     
   }
 
@@ -263,10 +245,24 @@ export default class projects extends React.Component {
     }
 	 });
 
+    const meta = {
+      title: 'David Bastian. — ' + newProject[0].slug,
+      description:  newProject[0].description,
+      //canonical: 'http://example.com/path/to/page',
+      meta: {
+        charset: 'utf-8',
+        name: {
+          keywords: 'design,art direction,creative,product design,interaction design,interfaces design,chile,web,frontend,backend,reactjs,angularjs.'
+        }
+      }
+    };
+
+
     return (
 
 
       <div className="slide-inner container">
+      <DocumentMeta {...meta} />
         
         <div className="description">
 
