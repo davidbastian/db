@@ -7,6 +7,9 @@ import scrolltoplugin from '../../../node_modules/gsap/src/uncompressed/plugins/
 import zepto from 'npm-zepto'
 import imagesLoaded from 'imagesLoaded'
 
+
+import DocumentMeta from 'react-document-meta';
+
 import p from 'json!../projects/projects.json'
 
 const pjson = p.projects
@@ -117,10 +120,24 @@ chao(callback){
 
   render() { 
 
+    const meta = {
+      title: 'Some Meta Title',
+      description: 'I am a description, and I can create multiple tags',
+      canonical: 'http://example.com/path/to/page',
+      meta: {
+        charset: 'utf-8',
+        name: {
+          keywords: 'react,meta,document,html,tags'
+        }
+      }
+    };
+
+
     
 
     return (
       <div className="slides"> 
+      <DocumentMeta {...meta} />
 
                 {
                           pjson.map(
