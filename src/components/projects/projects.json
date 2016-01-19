@@ -126,16 +126,15 @@
             "year": "2013",
             "agency": "Blacksheepdesign",
             "img": "media/007.jpg",
-             "media": [{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/007a.jpg"
-                    }]
+            "media": [{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/007a.jpg"
+                }]
 
-                    }
-                    ]
-                
+            }]
+
         },
 
         {
@@ -145,7 +144,7 @@
             "description": "In this design proposal my idea was focused in the quality of the yachts therefore I tried to keep a clean and elegant design with lots of white space and an big percent of the site should be a powerful image.",
             "year": "2014",
             "agency": "Designworks",
-            "img": "media/004.jpg", 
+            "img": "media/004.jpg",
 
             "media": [{
                     "type": "image",
@@ -176,7 +175,7 @@
 
             ]
 
-                
+
         },
 
         {
@@ -187,22 +186,20 @@
             "link": "http://www.superdiversity.org",
             "year": "2015",
             "agency": "Designworks",
-            "img": "media/011.jpg", 
+            "img": "media/011.jpg",
 
             "media": [{
                     "type": "image",
                     "enabled": 1,
                     "links": [{
                         "src": "media/011.jpg"
-                    }
-                    ]
-                },{
+                    }]
+                }, {
                     "type": "image",
                     "enabled": 1,
                     "links": [{
                         "src": "media/011a.jpg"
-                    }
-                    ]
+                    }]
                 }, {
                     "type": "video",
                     "enabled": 1,
@@ -235,21 +232,19 @@
                     "enabled": 1,
                     "links": [{
                         "src": "media/025b.jpg"
-                    }
-                    ]
+                    }]
                 }, {
                     "type": "video",
                     "enabled": 1,
                     "links": [{
                         "src": "http://www.davidbastian.cl/proyectos/media/025.mp4"
                     }]
-                },{
+                }, {
                     "type": "image",
                     "enabled": 1,
                     "links": [{
                         "src": "media/025c.jpg"
-                    }
-                    ]
+                    }]
                 }, {
                     "type": "video",
                     "enabled": 1,
@@ -282,9 +277,8 @@
                     "enabled": 1,
                     "links": [{
                         "src": "media/020.jpg"
-                    }
-                    ]
-                },  {
+                    }]
+                }, {
                     "type": "image",
                     "enabled": 1,
                     "links": [{
@@ -296,7 +290,7 @@
                     "links": [{
                         "src": "media/020b.jpg"
                     }]
-                },{
+                }, {
                     "type": "video",
                     "enabled": 1,
                     "links": [{
@@ -328,44 +322,39 @@
                     "enabled": 1,
                     "links": [{
                         "src": "media/023a.jpg"
-                    }
-                    ]
-                },{
+                    }]
+                }, {
                     "type": "image",
                     "enabled": 1,
                     "links": [{
                         "src": "media/023c.jpg"
-                    }
-                    ]
+                    }]
                 }, {
                     "type": "video",
                     "enabled": 1,
                     "links": [{
                         "src": "http://www.davidbastian.cl/proyectos/media/023.mp4"
                     }]
-                },{
+                }, {
                     "type": "image",
                     "enabled": 1,
                     "links": [{
                         "src": "media/023d.jpg"
-                    }
-                    ]
-                },{
+                    }]
+                }, {
                     "type": "image",
                     "enabled": 1,
                     "links": [{
                         "src": "media/023e.jpg"
-                    }
-                    ]
-                },{
+                    }]
+                }, {
                     "type": "image",
                     "enabled": 1,
                     "links": [{
                         "src": "media/023f.jpg"
-                    }
-                    ]
+                    }]
                 }
-                  
+
 
 
             ]
@@ -377,55 +366,46 @@
             "title": "<small>Proposal</small> Blacksheepdesign",
             "role": "Design.",
             "description": "I did a digital design proposal for the site of this agency. I tried to keep a simple design focused in its slogan (We love design), playing a little with that words, keeping a fresh and minimalist design.",
-             "year": "2013",
+            "year": "2013",
             "agency": "Blacksheepdesign",
             "img": "media/014b.jpg",
             "media": [{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/014b.jpg"
-                    }
-                    ]
-                },
-                {
-                    "type": "video",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "http://www.davidbastian.cl/proyectos/media/014.mp4"
-                    }
-                    ]
-                },
-                {
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/014a.jpg"
-                    }
-                    ]
-                },{
-                    "type": "video",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "http://www.davidbastian.cl/proyectos/media/014a.mp4"
-                    }
-                    ]
-                },{
-                    "type": "video",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "http://www.davidbastian.cl/proyectos/media/014b.mp4"
-                    }
-                    ]
-                },{
-                    "type": "video",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "http://www.davidbastian.cl/proyectos/media/014c.mp4"
-                    }
-                    ]
-                }
-                ]
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/014b.jpg"
+                }]
+            }, {
+                "type": "video",
+                "enabled": 1,
+                "links": [{
+                    "src": "http://www.davidbastian.cl/proyectos/media/014.mp4"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/014a.jpg"
+                }]
+            }, {
+                "type": "video",
+                "enabled": 1,
+                "links": [{
+                    "src": "http://www.davidbastian.cl/proyectos/media/014a.mp4"
+                }]
+            }, {
+                "type": "video",
+                "enabled": 1,
+                "links": [{
+                    "src": "http://www.davidbastian.cl/proyectos/media/014b.mp4"
+                }]
+            }, {
+                "type": "video",
+                "enabled": 1,
+                "links": [{
+                    "src": "http://www.davidbastian.cl/proyectos/media/014c.mp4"
+                }]
+            }]
         },
 
         {
@@ -437,82 +417,71 @@
             "agency": "Blacksheepdesign",
             "img": "media/010.jpg",
             "media": [{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/010.jpg"
-                    }
-                    ]
-                },{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/010a.jpg"
-                    }
-                    ]
-                },{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/010b.jpg"
-                    }
-                    ]
-                },{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/010c.jpg"
-                    }
-                    ]
-                },{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/010d.jpg"
-                    }
-                    ]
-                }
-                ]
-            }
-        ,
-        {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/010.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/010a.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/010b.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/010c.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/010d.jpg"
+                }]
+            }]
+        }, {
             "slug": "Wadham & Partners",
             "title": "<small>Lawyers</small>Wadham & Partners",
             "role": "Interaction Design & Development.",
             "year": "2014",
-            "agency": "Blacksheepdesign",           
+            "agency": "Blacksheepdesign",
             "description": "In this project i did Design, Front-end & Back-end, Main idea for this site it was make a clean design, elegant, with a nice contrast between big and small font types getting a fresh and contemporary experience through the site.",
             "link": "http://wadham.co.nz/",
             "img": "media/005.jpg",
             "media": [{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/005a.jpg"
-                    }]
-                    },{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/005b.jpg"
-                    }
-                    ]
-            },{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/005c.jpg"
-                    }
-                    ]
-            },{
-                    "type": "video",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "http://www.davidbastian.cl/proyectos/media/005.mp4"
-                    }
-                    ]
-            }
-        ]},
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/005a.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/005b.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/005c.jpg"
+                }]
+            }, {
+                "type": "video",
+                "enabled": 1,
+                "links": [{
+                    "src": "http://www.davidbastian.cl/proyectos/media/005.mp4"
+                }]
+            }]
+        },
 
 
         {
@@ -520,32 +489,29 @@
             "title": "<small>Annual Report</small>Wellington Airport",
             "role": "Interaction Design & Development.",
             "year": "2014",
-            "agency": "Designworks",   
+            "agency": "Designworks",
             "description": "A one page parallax scroll to show the achievements of the wellington airport a long of that year. I used a lot of transitions for this site to do a kind of trip along of the site focused on an airplane to guide the experience.",
             "link": "http://davidbastian.cl/proyectos/wellingtonairport/",
             "img": "media/016.jpg",
             "media": [{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/016a.jpg"
-                    }]
-                    },{
-                    "type": "video",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "http://www.davidbastian.cl/proyectos/media/016.mp4"
-                    }
-                    ]
-            },{
-                    "type": "video",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "http://www.davidbastian.cl/proyectos/media/016a.mp4"
-                    }
-                    ]
-            }
-        ]
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/016a.jpg"
+                }]
+            }, {
+                "type": "video",
+                "enabled": 1,
+                "links": [{
+                    "src": "http://www.davidbastian.cl/proyectos/media/016.mp4"
+                }]
+            }, {
+                "type": "video",
+                "enabled": 1,
+                "links": [{
+                    "src": "http://www.davidbastian.cl/proyectos/media/016a.mp4"
+                }]
+            }]
         },
 
         {
@@ -556,63 +522,56 @@
             "year": "2014",
             "agency": "Blacksheepdesign",
             "img": "media/017.jpg",
-
             "media": [{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/017.jpg"
-                    }]
-                    },
-                    {
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/017a.jpg"
-                    }]
-                    },
-                    {
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/017b.jpg"
-                    }]
-                    },
-                    {
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/017c.jpg"
-                    }]
-                    },
-                    {
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/017d.jpg"
-                    }]
-                    }
-        ]
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/017.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/017a.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/017b.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/017c.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/017d.jpg"
+                }]
+            }]
         },
 
         {
             "slug": "Asian New Zealand Fundation",
             "title": "<small>Fundation</small>Asian New Zealand",
             "year": "2015",
-            "agency": "Designworks",  
+            "agency": "Designworks",
             "role": "Interaction Design & Front End Development.",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
             "link": "http://davidbastian.cl/proyectos/anzf/",
             "img": "media/026.jpg",
 
             "media": [{
-                    "type": "image",
-                    "enabled": 1,
-                    "links": [{
-                        "src": "media/026a.jpg"
-                    }]
-                    }
-        ]
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/026a.jpg"
+                }]
+            }]
         },
 
         {

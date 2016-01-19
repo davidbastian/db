@@ -5,14 +5,42 @@ import './introduction.scss'
 import gsap from 'gsap'  
 import scrolltoplugin from '../../../node_modules/gsap/src/uncompressed/plugins/ScrollToPlugin.js'
 import zepto from 'npm-zepto'
+import imagesLoaded from 'imagesLoaded'
 
 import p from 'json!../projects/projects.json'
-const pjson = p.projects
 
+const pjson = p.projects
 
 
 class Introduction extends React.Component {
 
+
+
+preloadFunction(){
+
+     function listo() {
+        console.log('listo')
+     }
+
+          var imgLoad =  imagesLoaded('.slides'),
+              countB = 0,
+              imaSize = $('.slides').find('img').size(),
+              mediaSize = $('.slides').find('.slideItem').size(),
+              averageImage = (imaSize*100)/mediaSize;
+
+
+
+          imgLoad.on( 'progress', function( instance, image ) {
+            var result = image.isLoaded ? 'loaded' : 'broken';
+            var ima = (((countB = countB + 1) * averageImage) / imaSize);
+
+              console.log('loading-image:' +  ima + '% ' + image.img.src);
+
+              if (ima === 100) {                                 
+               listo();
+              }
+          });      
+  }
 
 
 
@@ -55,9 +83,36 @@ function displaywheel(e){
 
 }
 
-componentDidMount() {
-     this.scrollFunction();
+  componentDidMount() {
+        //preloadFunction
+        this.preloadFunction(); 
+        this.scrollFunction();  
+  }
+
+
+/*componentWillAppear(callback) {
+    this.hola(callback);
 }
+
+componentWillLeave(callback) {
+    this.chao(callback);
+}
+
+
+hola(callback){
+    console.log('appear')
+}
+
+chao(callback){
+    console.log('leave')
+
+    setTimeout(function(){
+            $('.slideItem').css('opacity',0);
+
+    },2000)
+   
+}*/
+
 
 
   render() { 

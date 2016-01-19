@@ -9,7 +9,7 @@ import zepto from 'npm-zepto'
 import gsap from 'gsap'
 
 
-let ReactTransitionGroup = require('react-addons-transition-group');
+require('../app.css')
 
 export default class App extends React.Component {
 
@@ -30,10 +30,7 @@ export default class App extends React.Component {
       		 <Header />
            <Sidebar />               
            <div id="site">                                             
-              <ReactTransitionGroup component="div">
                {this.props.children}
-              </ReactTransitionGroup>
-                  
           </div>
             <Footer />
       </div>    

@@ -28,7 +28,7 @@ export default class navbar extends React.Component {
 
 		      		<Link key="about"  to="about">
                                     + About me
-                               </Link>
+                     </Link>
 
 
 		      	</li>
