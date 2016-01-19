@@ -521,16 +521,30 @@
             "role": "Interaction Design & Development.",
             "year": "2014",
             "agency": "Designworks",   
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
+            "description": "A one page parallax scroll to show the achievements of the wellington airport a long of that year. I used a lot of transitions for this site to do a kind of trip along of the site focused on an airplane to guide the experience.",
+            "link": "http://davidbastian.cl/proyectos/wellingtonairport/",
             "img": "media/016.jpg",
             "media": [{
                     "type": "image",
                     "enabled": 1,
                     "links": [{
-                        "src": "media/016.jpg"
+                        "src": "media/016a.jpg"
                     }]
+                    },{
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/016.mp4"
                     }
+                    ]
+            },{
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/016a.mp4"
+                    }
+                    ]
+            }
         ]
         },
 
