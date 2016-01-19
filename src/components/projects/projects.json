@@ -552,7 +552,7 @@
             "slug": "Diocese of Palmerston North",
             "title": "<small>Diocese of</small>Palmerston North",
             "role": "Look & Feel Design.",
-            "description": "A clean and subtle proposal of design, making a big white spaces with relaxing images, for improve the lecture and visibility, using a serif font family to get an sober and elegant direction.",
+            "description": "A clean and subtle proposal of design, making a big white spaces with relaxing images, for improve the lecture and visibility, using a serif font family to get an sober and elegant design direction.",
             "year": "2014",
             "agency": "Blacksheepdesign",
             "img": "media/017.jpg",
@@ -569,6 +569,27 @@
                     "enabled": 1,
                     "links": [{
                         "src": "media/017a.jpg"
+                    }]
+                    },
+                    {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/017b.jpg"
+                    }]
+                    },
+                    {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/017c.jpg"
+                    }]
+                    },
+                    {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/017d.jpg"
                     }]
                     }
         ]
