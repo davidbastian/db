@@ -562,6 +562,13 @@
                     "links": [{
                         "src": "media/017.jpg"
                     }]
+                    },
+                    {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/017a.jpg"
+                    }]
                     }
         ]
         },
