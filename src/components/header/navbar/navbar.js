@@ -19,9 +19,9 @@ export default class navbar extends React.Component {
   render() {
     return (
 		<nav>
-			<a href={brand.href} id="logo" target="_blank">  
+			<Link key="home"  to="/" id="logo" >  
 				David Bastian.
-			</a>
+			</Link>
 
 		      <ul id="menu">
 		      	<li>

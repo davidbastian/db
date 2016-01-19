@@ -550,10 +550,20 @@
 
         {
             "slug": "Diocese of Palmerston North",
-            "role": "Design.",
+            "title": "<small>Diocese of</small>Palmerston North",
+            "role": "Look & Feel Design.",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
             "link": "demo.html",
-            "img": "media/017.jpg"
+            "img": "media/017.jpg",
+
+            "media": [{
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/017.jpg"
+                    }]
+                    }
+        ]
         },
 
         {
