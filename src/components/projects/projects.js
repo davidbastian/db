@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDom from 'react-dom'  
+import { Router, Route, IndexRoute, Link, IndexLink, RouteHandler  } from 'react-router'
 
 import './projects.scss'
 import gsap from 'gsap'  
@@ -261,7 +262,7 @@ export default class projects extends React.Component {
     return (
 
 
-      <div className="slide-inner container">
+      <div className="slide-inner container" key="inner">
       <DocumentMeta {...meta} />
         
         <div className="description">

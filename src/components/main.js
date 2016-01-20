@@ -3,8 +3,8 @@ import React from 'react';
 import ReactDom from 'react-dom'
 
 /*router*/
-import { Router, Route, Link } from 'react-router'
-import { IndexRoute } from 'react-router'
+import { Router, Route, IndexRoute, Link, IndexLink, RouteHandler  } from 'react-router'
+
 import { createHistory, useBasename } from 'history'
 
 

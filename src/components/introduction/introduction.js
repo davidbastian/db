@@ -1,5 +1,7 @@
 import React from 'react'
+import ReactDom from 'react-dom'  
 import { Router, Route, IndexRoute, Link, IndexLink, RouteHandler  } from 'react-router'
+
 import './introduction.scss'
 
 import gsap from 'gsap'  
@@ -128,7 +130,7 @@ render() {
     };
 
     return (
-      <div className="slides"> 
+      <div className="slides" key="inner0"> 
       <DocumentMeta {...meta} />
 
                 {
