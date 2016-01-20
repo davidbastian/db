@@ -1,20 +1,49 @@
-
-/*.example-enter {
+.example-enter {
   opacity: 0.01;
-  transition: opacity .5s ease-out;
+  transition-delay: .5s;
+
+  .slideItem,.media {
+  	opacity:0;
+
+
+  }
+
+  h2 {
+  		//transition: opacity .5s ease-out;
+		//opacity: 0.01;
+  }
 }
 
 .example-enter.example-enter-active {
-  opacity: 1;
+
+ opacity:1;
+   h2 {
+	//	opacity: 1;
+  }
 }
 
 .example-leave {
-  opacity: 1;
-  transition: opacity .5s ease-out;
+
+    opacity: 1;
+   transition-delay: .5s;
+
+
+   h2 {
+	//	opacity: 1;
+		// transition: opacity .5s ease-out;
+
+  }
+
+
 }
 
 .example-leave.example-leave-active {
-  opacity: 0;
-}*/
+ opacity: 0;
+
+
+   h2 {
+	//	opacity: 0;
+  }
+}
 
 
