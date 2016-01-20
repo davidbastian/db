@@ -14,7 +14,7 @@ import gsap from 'gsap'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 
-require('../app.css')
+require('../transitions.scss')
 
 export default class App extends React.Component {
 
@@ -37,7 +37,7 @@ export default class App extends React.Component {
            <Sidebar />               
            <div id="site">                                             
 
-               <ReactCSSTransitionGroup component="div" transitionName="example"  transitionEnterTimeout={500} transitionLeaveTimeout={500} >
+               <ReactCSSTransitionGroup component="div" transitionName="example"  transitionEnterTimeout={800} transitionLeaveTimeout={800} >
                   {React.cloneElement(this.props.children || <div />, { key: pathname })}
                 </ReactCSSTransitionGroup>
           </div>

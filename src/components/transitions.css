@@ -1,5 +1,5 @@
 
-.example-enter {
+/*.example-enter {
   opacity: 0.01;
   transition: opacity .5s ease-out;
 }
@@ -15,6 +15,6 @@
 
 .example-leave.example-leave-active {
   opacity: 0;
-}
+}*/
 
 
