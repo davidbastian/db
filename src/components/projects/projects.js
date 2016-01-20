@@ -17,16 +17,12 @@ import p from 'json!./projects.json'
 const pjson = p.projects
 
 
-
-
-
 class Video extends React.Component {
 
 componentDidMount() {
      var node = ReactDom.findDOMNode(this.refs.video);
 
 }
-
 
 render(){
      return (
@@ -38,19 +34,16 @@ render(){
   }
 }
 
-
 class Image extends React.Component {
   componentDidMount() {
      // console.log(ReactDom.findDOMNode(this.refs.one));
   }
-
   render(){
      return (
           <img ref='one' src={this.props.image} alt={this.props.type} />   
       )   
   }
 }
-
 export default class projects extends React.Component {
 
   preloadFunction(){
@@ -110,7 +103,6 @@ export default class projects extends React.Component {
 
                   });
           });
-
           
   }
 
@@ -128,9 +120,7 @@ export default class projects extends React.Component {
       scrollTop = el.scrollTop(),
       finalScroll = scrollTop - parseInt((delta * scrollDistance), 10);
 
-
       //console.log(finalScroll) 
-
 
   var myVar;
    var varCounter = 0;
@@ -213,11 +203,7 @@ export default class projects extends React.Component {
           document.addEventListener(mousewheelevt, displaywheel, false)
       }
 
-
-
-
   }
-
 
   componentDidMount() {
         //preloadFunction
@@ -225,13 +211,11 @@ export default class projects extends React.Component {
         this.scrollFunction();  
   }
 
-
   componentWillMount() {
                 var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
                 console.log('is safari? ' + isSafari)
                     
   }
-
 
   render() {
   const slug = this.props.params.slug
