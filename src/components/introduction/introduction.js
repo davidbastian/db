@@ -50,12 +50,12 @@ preloadFunction(){
 scrollFunction() {
 
 function displaywheel(e){
-   var el= $(window), //Window object
+   var el= $(window), 
   scrollTime = 2,
-  scrollDistance = 200, //Distance. Use smaller value for shorter scroll and greater value for longer scroll
+  scrollDistance = 200, 
 
-    evt=window.event || e,//equalize event object
-    delta=evt.detail? evt.detail/ 3 : evt.wheelDelta/ 120,//check for detail first so Opera uses that instead of wheelDelta
+    evt=window.event || e,
+    delta=evt.detail? evt.detail/ 3 : evt.wheelDelta/ 120,
     scrollLeft = el.scrollLeft(),
     finalScroll = scrollLeft - parseInt((delta * scrollDistance), 10);
 
@@ -66,18 +66,18 @@ function displaywheel(e){
                     scrollTo: {
                         x: finalScroll
                     },
-                    ease: Expo.easeOut, //For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
+                    ease: Expo.easeOut, 
                     overwrite: 5
                 });
 
 }
  
-    var mousewheelevt=(/Firefox/i.test(navigator.userAgent))? "DOMMouseScroll" : "mousewheel" //FF doesn't recognize mousewheel as of FF3.x
+    var mousewheelevt=(/Firefox/i.test(navigator.userAgent))? "DOMMouseScroll" : "mousewheel" 
  
-    if (document.attachEvent) {//if IE (and Opera depending on user setting)}
+    if (document.attachEvent) {
         document.attachEvent("on"+mousewheelevt, displaywheel)
     }
-    else if (document.addEventListener){ //WC3 browsers
+    else if (document.addEventListener){
         document.addEventListener(mousewheelevt, displaywheel, false)
     }
 
@@ -86,10 +86,30 @@ function displaywheel(e){
 
 }
 
+
+mouseFunction(){
+  $('.slides').mousemove(function(e){
+                        var x = e.clientX - this.offsetLeft,
+                            w = document.body.offsetWidth,
+                            per = ((x*100)/w),
+                            slidesSize = $('.slideItem').size(),
+                            cpos = $('.container').offset().left - $(window).scrollLeft(),
+                            slideWidth = $('.slideItem').width(),
+                            average = ((slidesSize*slideWidth) + (cpos - 20)) - w;
+
+                       TweenMax.to( $(window), 4, {scrollTo:{x:(per*average)/100}, ease:Power3.easeOut});
+
+        });
+
+}
+
 componentDidMount() {
         //preloadFunction
         this.preloadFunction(); 
-        this.scrollFunction();  
+        //this.scrollFunction(); 
+        this.mouseFunction();  
+
+        
 }
 
 

@@ -571,6 +571,12 @@
                 "links": [{
                     "src": "media/026a.jpg"
                 }]
+            }, {
+                "type": "video",
+                "enabled": 1,
+                "links": [{
+                    "src": "http://www.davidbastian.cl/proyectos/media/026.mp4"
+                }]
             }]
         },
 
