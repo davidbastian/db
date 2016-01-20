@@ -561,10 +561,9 @@
             "year": "2015",
             "agency": "Designworks",
             "role": "Interaction Design & Front End Development.",
-            "description": "I like the challenge to make a full responsive web site on complex content design. So for this project I tried to develop a good way to use it in different platform, trying to fit well with a big paragraphs of content or random low quality pictures.",
+            "description": "I like the challenge to make a full responsive site on complex content design. So for this project I tried to develop a good way to use it in different platform, trying to fit well with a big paragraphs of content or random low quality pictures.",
             "link": "http://davidbastian.cl/proyectos/anzf/",
             "img": "media/026.jpg",
-
             "media": [{
                 "type": "image",
                 "enabled": 1,
@@ -576,6 +575,18 @@
                 "enabled": 1,
                 "links": [{
                     "src": "http://www.davidbastian.cl/proyectos/media/026.mp4"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/026c.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/026b.jpg"
                 }]
             }]
         },
