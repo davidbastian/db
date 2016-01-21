@@ -617,13 +617,7 @@
                 "type": "image",
                 "enabled": 1,
                 "links": [{
-                    "src": "media/013.jpg"
-                }]
-            },{
-                "type": "image",
-                "enabled": 1,
-                "links": [{
-                    "src": "media/013a.jpg"
+                    "src": "media/013aa.jpg"
                 }]
             },{
                 "type": "image",
