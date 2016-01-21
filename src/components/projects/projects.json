@@ -607,11 +607,23 @@
 
         {
             "slug": "Gacel",
+            "title": "<small>Zapatos</small>Gacel",
+            "year": "2013",
+            "agency": "Dittborn & Unzuetta",
             "role": "Interaction Design & Front End Development.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/013.jpg"
-        },
+            "description": "This is one of my oldest project, but I still like. because I think it was a good ecommerce site when I did, with a nice way to show products vs full cover images.",
+            "img": "media/013.jpg",
+            "media": [{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/013.jpg"
+                }]
+            }
+
+            ]
+        }
+        ,
 
         {
             "slug": "Caritas Challenge",
