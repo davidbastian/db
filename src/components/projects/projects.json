@@ -705,10 +705,19 @@
 
         {
             "slug": "Iptv",
+            "title": "<small>Website</small>Iptv",
             "role": "Design, Develop.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/024.jpg"
+            "year": "2012",
+            "agency": "Ilogica",
+            "description": "This is one of my oldest project, but I still like. because I think it was a good potal website when I did, with a nice way to show categories, products and  its dashboard.",
+            "img": "media/024.jpg",
+            "media": [{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/024a.jpg"
+                }]
+            }]
         },
 
         {
@@ -721,18 +730,66 @@
 
         {
             "slug": "Awapuni School",
-            "role": ".",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/018.jpg"
+            "title": "<small>School</small>Awapuni",
+            "role": "Look & Feel Design.",
+            "description": " I did the look and feel, and the  begin of the design direction for this site. I tried make an interface simple keeping my design style, without complex things, just the neccesary and usefull.",
+            "year": "2013",
+            "agency": "Blacksheepdesign",
+            "img": "media/018.jpg",
+            "media": [{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/018a.jpg"
+                }]
+            }]
         },
 
         {
             "slug": "Pilar Rodriguez",
+            "title": "<small>Food & Wine</small>Pilar Rodriguez",
             "role": "Design, Develop, Art & Creative Direction.",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/003.jpg"
+            "link": "http://www.pilarrodriguez.cl/",
+            "year": "2013",
+            "img": "media/003.jpg",
+            "media": [{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/003a.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/003b.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/003c.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/003d.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/003e.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/003f.jpg"
+                }]
+            }]
         }
 
 

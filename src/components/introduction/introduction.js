@@ -107,8 +107,8 @@ mouseFunction(){
 
 componentDidMount() {
         this.preloadFunction(); 
-     //   this.scrollFunction(); 
-        this.mouseFunction();  
+        this.scrollFunction(); 
+      //  this.mouseFunction();  
 
         
 }
