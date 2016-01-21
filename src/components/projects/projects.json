@@ -619,6 +619,36 @@
                 "links": [{
                     "src": "media/013.jpg"
                 }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/013a.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/013b.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/013c.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/013d.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/013e.jpg"
+                }]
             }
 
             ]
