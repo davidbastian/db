@@ -1,7 +1,7 @@
 {
     "projects": [{
             "slug": "Gallipoli: The Scale of War",
-            "title": "<small>Gallipoli:</small><span>The Scale of War</span>",
+            "title": "<small>Gallipoli:</small><div><span>The Scale of War<span></div>",
             "role": "Interaction Design & Front End Development.",
             "description": "I did wireframes, Front-end, and Interaction design. using GSAP for the animations & AngularJS for the implemetation, also I got a Gold Pin - Best Awards NZ for this site.",
             "link": "http://www.gallipoli.tepapa.govt.nz/scrubber",
@@ -565,42 +565,42 @@
             "link": "http://davidbastian.cl/proyectos/anzf/",
             "img": "media/026.jpg",
             "media": [{
-                "type": "image",
-                "enabled": 1,
-                "links": [{
-                    "src": "media/026a.jpg"
-                }]
-            }, {
-                "type": "video",
-                "enabled": 1,
-                "links": [{
-                    "src": "http://www.davidbastian.cl/proyectos/media/026.mp4"
-                }]
-            },{
-                "type": "image",
-                "enabled": 1,
-                "links": [{
-                    "src": "media/026c.jpg"
-                }]
-            },{
-                "type": "image",
-                "enabled": 1,
-                "links": [{
-                    "src": "media/026b.jpg"
-                }]
-            },{
-                "type": "image",
-                "enabled": 1,
-                "links": [{
-                    "src": "media/026d.jpg"
-                }]
-            }, {
-                "type": "video",
-                "enabled": 1,
-                "links": [{
-                    "src": "http://www.davidbastian.cl/proyectos/media/026a.mp4"
-                }]
-            }
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/026a.jpg"
+                    }]
+                }, {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/026.mp4"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/026c.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/026b.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/026d.jpg"
+                    }]
+                }, {
+                    "type": "video",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "http://www.davidbastian.cl/proyectos/media/026a.mp4"
+                    }]
+                }
 
             ]
         },
@@ -614,47 +614,93 @@
             "description": "This is one of my oldest project, but I still like. because I think it was a good ecommerce site when I did, with a nice way to show products vs full cover images.",
             "img": "media/013.jpg",
             "media": [{
-                "type": "image",
-                "enabled": 1,
-                "links": [{
-                    "src": "media/013aa.jpg"
-                }]
-            },{
-                "type": "image",
-                "enabled": 1,
-                "links": [{
-                    "src": "media/013b.jpg"
-                }]
-            },{
-                "type": "image",
-                "enabled": 1,
-                "links": [{
-                    "src": "media/013c.jpg"
-                }]
-            },{
-                "type": "image",
-                "enabled": 1,
-                "links": [{
-                    "src": "media/013d.jpg"
-                }]
-            },{
-                "type": "image",
-                "enabled": 1,
-                "links": [{
-                    "src": "media/013e.jpg"
-                }]
-            }
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/013aa.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/013b.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/013c.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/013d.jpg"
+                    }]
+                }, {
+                    "type": "image",
+                    "enabled": 1,
+                    "links": [{
+                        "src": "media/013e.jpg"
+                    }]
+                }
 
             ]
-        }
-        ,
+        },
 
         {
             "slug": "Caritas Challenge",
+            "title": "<small>Caritas</small> Challenge",
             "role": "Interaction Design & Front End Development.",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ut.",
-            "link": "demo.html",
-            "img": "media/006.jpg"
+            "description": "Project that I did interfaces & front end, A flat design inspired a little bit in 'international switzerland styled'. I worked with a system grids of 12 columns, trying to create an uncommon  layout.",
+            "link": "http://davidbastian.cl/proyectos/caritas/preview/",
+            "year": "2014",
+            "agency": "Blacksheepdesign",
+            "img": "media/006.jpg",
+            "media": [{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/006a.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/006b.jpg"
+                }]
+            }, {
+
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/006c.jpg"
+                }]
+            }, {
+                "type": "video",
+                "enabled": 1,
+                "links": [{
+                    "src": "http://www.davidbastian.cl/proyectos/media/006.mp4"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/006d.jpg"
+                }]
+            }, {
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/006e.jpg"
+                }]
+            },{
+                "type": "image",
+                "enabled": 1,
+                "links": [{
+                    "src": "media/006f.jpg"
+                }]
+            }]
         },
 
         {
