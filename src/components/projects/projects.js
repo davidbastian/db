@@ -49,8 +49,24 @@ export default class projects extends React.Component {
   preloadFunction(){
 
      function listo() {
-        console.log('listo')
-     }
+        console.log('listo');
+
+
+        TweenLite.to($('h2  small'), .8,{
+                opacity: '1',
+                ease: Power4.easeOut
+        });
+
+        TweenLite.fromTo($('h2  div span'), 1, {
+                opacity: '0',
+                y: '50px'
+            }, {
+                opacity: '1',
+                y: '0px',
+                ease: Power4.easeOut
+        });
+
+      }
 
           var imgLoad =  imagesLoaded('.media-container'),
               countB = 0,

@@ -26,6 +26,8 @@
             max-width: 380px;
             width: 90%;
             h2 {
+
+                
                 width: 400px;
                 padding-top: 10vh;
                 small {
@@ -33,55 +35,63 @@
                     font-size: 16px;
                     display: block;
                     margin-bottom: 10px;
+                    position: relative;
+                    opacity:0;
                 }
-            }
 
+
+                div {
+                    overflow: hidden;
+                    span {
+                        position: relative;
+                        display: inline-block;
+                        opacity:0;
+                        trasform: translatey(50px);
+                    }
+                }
+
+
+            }
             .credits {
                 position: absolute;
                 bottom: 0;
                 left: 0;
                 //padding-bottom: 10vh;
-                padding-bottom:3vh;
-                
+                padding-bottom: 3vh;
                 ul {
                     margin-top: 20px;
-                  //  display:none;
-
+                    //  display:none;
                     li {
-
-                            border-bottom: 1px dotted #CACACA;
-                            padding:8px 0;
-
+                        border-bottom: 1px dotted #CACACA;
+                        padding: 8px 0;
                     }
-
                 }
-               p,li, a,.see, span {
-                font-weight: 100;          
-                line-height: 1.6em;
-                font-size: 14px;
-
-                a {
-                    display: inline-block;
-
-                }
-                .plane {
-                    font-size: 19px;
-                    left: 8px;
-                    position: relative;
-                    opacity:0.8;
-                    top: 1px;
+                p,
+                li,
+                a,
+                .see,
+                span {
+                    font-weight: 100;
+                    line-height: 1.6em;
+                    font-size: 14px;
+                    a {
+                        display: inline-block;
+                    }
+                    .plane {
+                        font-size: 19px;
+                        left: 8px;
+                        position: relative;
+                        opacity: 0.8;
+                        top: 1px;
+                    }
                 }
             }
-
-
-            }
-            
         }
     }
     .media-container {
         width: 55%;
         float: right;
-        position:relative;
+        position: relative;
         .media {
             height: auto;
             width: 100%;
