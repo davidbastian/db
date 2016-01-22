@@ -15,6 +15,8 @@ const getStyles = (children, pathname) => ({[pathname]: {children, opacity: spri
 //console.log(children);
 
 export default function RouteTransition({children, pathname}) {
+
+  console.log(children)
   return (
     <TransitionMotion
       styles={getStyles(children, pathname)}
