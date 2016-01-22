@@ -13,11 +13,12 @@ import gsap from 'gsap'
 
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
+import RouteTransition from './RouteTransition.js'
+
 
 require('../transitions.scss')
 
 export default class App extends React.Component {
-
 
   constructor(props) {
     super(props);
@@ -37,9 +38,9 @@ export default class App extends React.Component {
            <Sidebar />               
            <div id="site">                                             
 
-               <ReactCSSTransitionGroup component="div" transitionName="example"  transitionEnterTimeout={2500} transitionLeaveTimeout={2500} >
-                  {React.cloneElement(this.props.children || <div />, { key: pathname })}
-                </ReactCSSTransitionGroup>
+               <RouteTransition pathname={this.props.location.pathname}>
+        {this.props.children}
+      </RouteTransition>
           </div>
             <Footer />
       </div>    
