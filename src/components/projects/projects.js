@@ -37,6 +37,7 @@ render(){
 class Image extends React.Component {
   componentDidMount() {
      // console.log(ReactDom.findDOMNode(this.refs.one));
+
   }
   render(){
      return (
@@ -49,7 +50,7 @@ export default class projects extends React.Component {
   preloadFunction(){
 
      function listo() {
-        console.log('listo');
+       // console.log('listo');
 
 
         /*TweenLite.to($('h2  small'), .5,{
@@ -82,7 +83,7 @@ export default class projects extends React.Component {
             var result = image.isLoaded ? 'loaded' : 'broken';
             var ima = (((countB = countB + 1) * averageImage) / imaSize);
 
-              console.log('loading-image:' +  ima + '% ' + image.img.src);
+           //   console.log('loading-image:' +  ima + '% ' + image.img.src);
 
               if (ima === 100) {                                 
                listo();
@@ -99,7 +100,7 @@ export default class projects extends React.Component {
 
                                                 var vid = (((countB = countB + 1) * averageVideo) / videoSize);
 
-                                             console.log('loading-video:' +  vid + '% ' + video.firstChild.getAttribute("src"));
+                                           //  console.log('loading-video:' +  vid + '% ' + video.firstChild.getAttribute("src"));
 
                                              setTimeout(function(){
                                                
@@ -226,11 +227,18 @@ export default class projects extends React.Component {
         //preloadFunction
         this.preloadFunction(); 
         this.scrollFunction();  
+
+        //console.log('did');
+
+         console.log('did introduction');
   }
 
   componentWillMount() {
                 var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-                console.log('is safari? ' + isSafari)
+               // console.log('is safari? ' + isSafari)
+
+
+         console.log('will projects');
                     
   }
 

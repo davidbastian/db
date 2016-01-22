@@ -37,7 +37,7 @@ export default class App extends React.Component {
            <Sidebar />               
            <div id="site">                                             
 
-               <ReactCSSTransitionGroup component="div" transitionName="example"  transitionEnterTimeout={800} transitionLeaveTimeout={800} >
+               <ReactCSSTransitionGroup component="div" transitionName="example"  transitionEnterTimeout={2500} transitionLeaveTimeout={2500} >
                   {React.cloneElement(this.props.children || <div />, { key: pathname })}
                 </ReactCSSTransitionGroup>
           </div>

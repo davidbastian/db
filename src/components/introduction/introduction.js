@@ -10,6 +10,9 @@ import zepto from 'npm-zepto'
 import imagesLoaded from 'imagesLoaded'
 
 
+//import ReactTransitionGroup from 'react-addons-transition-group'
+
+
 import DocumentMeta from 'react-document-meta'
 
 import p from 'json!../projects/projects.json'
@@ -24,7 +27,8 @@ class Introduction extends React.Component {
 preloadFunction(){
 
      function listo() {
-        console.log('listo')
+       // console.log('listo')
+
      }
 
           var imgLoad =  imagesLoaded('.slides'),
@@ -39,7 +43,7 @@ preloadFunction(){
             var result = image.isLoaded ? 'loaded' : 'broken';
             var ima = (((countB = countB + 1) * averageImage) / imaSize);
 
-              console.log('loading-image:' +  ima + '% ' + image.img.src);
+            //  console.log('loading-image:' +  ima + '% ' + image.img.src);
 
               if (ima === 100) {                                 
                listo();
@@ -109,10 +113,14 @@ componentDidMount() {
         this.preloadFunction(); 
         this.scrollFunction(); 
       //  this.mouseFunction();  
-
-        
+       console.log('did introduction');
+      
 }
 
+  componentWillMount() {
+    console.log('will introduction');
+
+}
 
 render() { 
 
@@ -129,6 +137,7 @@ render() {
     };
 
     return (
+
       <div className="slides" key="inner0"> 
       <DocumentMeta {...meta} />
 
@@ -143,6 +152,8 @@ render() {
                 }
 	
       </div>
+
+
     );
   }
 }

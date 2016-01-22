@@ -1,17 +1,62 @@
 .example-enter {
-  opacity: 0;
-  transition: opacity .8s ease-in;
+ /* opacity: 0;
+  transition: opacity .5s ease-out;
+
+  h2 {
+
+
+			 span {
+
+			 	opacity:0;
+			 	 transition:.5s ease-in;
+                transform: translatey(50px);
+                //  transition-delay: .5s;
+			 }
+  }*/
+
 }
 
 .example-enter.example-enter-active {
-  opacity: 1;
+ /*opacity: 1;
+
+  h2 {
+  	 span {
+
+			 	opacity:1;
+			 		 	 transition:.5s ease-in;
+                transform: translatey(0px);
+
+			 }
+  }*/
 }
 
 .example-leave {
-  opacity: 1;
-  transition: opacity .8s ease-in;
+ /* opacity: 1;
+  transition: opacity .5s ease-out;
+
+  h2 {
+  	 span {
+
+			 	opacity:0;
+			 	transition: .5s ease-in;
+                transform: translatey(50px);
+			 }
+  }*/
+
+
 }
 
 .example-leave.example-leave-active {
-  opacity: 0;
+ /* opacity: 0;
+
+  h2 {
+  	 span {
+
+			 	opacity:0;
+			 	// transition:.5s ease-out;
+
+                transform: translatey(50px);
+			 }
+  }*/
+
 }
