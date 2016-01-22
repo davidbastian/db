@@ -27,7 +27,7 @@
             width: 90%;
             h2 {
 
-                
+
                 width: 400px;
                 padding-top: 10vh;
                 small {
@@ -36,17 +36,20 @@
                     display: block;
                     margin-bottom: 10px;
                     position: relative;
-                    opacity:0;
+                   // opacity:0;
                 }
 
 
                 div {
+
                     overflow: hidden;
+                    display: inline-block;
+                    height: 44px;
                     span {
                         position: relative;
                         display: inline-block;
-                        opacity:0;
-                        trasform: translatey(50px);
+                       // opacity:0;
+                       // transform: translatey(50px);
                     }
                 }
 

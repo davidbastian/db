@@ -52,19 +52,20 @@ export default class projects extends React.Component {
         console.log('listo');
 
 
-        TweenLite.to($('h2  small'), .8,{
+        /*TweenLite.to($('h2  small'), .5,{
                 opacity: '1',
                 ease: Power4.easeOut
         });
 
-        TweenLite.fromTo($('h2  div span'), 1, {
-                opacity: '0',
-                y: '50px'
-            }, {
+        TweenLite.to($('h2  div span'), .7,  
+
+        {
                 opacity: '1',
                 y: '0px',
                 ease: Power4.easeOut
-        });
+        });*/
+
+
 
       }
 
