@@ -52,20 +52,54 @@ export default class projects extends React.Component {
      function listo() {
        // console.log('listo');
 
+       /* var time = 0.1;
 
-        /*TweenLite.to($('h2  small'), .5,{
+        TweenMax.staggerTo( $(".media"), .7, { 
+                    delay:0.2,
+                    opacity: '1',
+                    y: '0px',
+                    ease : Circ.easeOut }, time );
+
+
+
+        TweenMax.to($('h2  small'), .7,{
+                //delay:0.1,
+                delay:0.2,
+                y: '0px',
                 opacity: '1',
-                ease: Power4.easeOut
+                ease: Circ.easeOut,
+                
+                onComplete:function(){
+
+                  
+
+                }
         });
 
-        TweenLite.to($('h2  div span'), .7,  
+        
+
+        TweenMax.to($('h2  div span'), .7,  
 
         {
+                //delay:0.2,
+                delay:0.2,
                 opacity: '1',
                 y: '0px',
-                ease: Power4.easeOut
-        });*/
+                ease: Circ.easeOut
+        });
 
+
+         TweenMax.to($('.credits'), .7,{
+               // delay:0.3,
+               delay:0.2,
+                opacity: '1',
+                y: '0px',
+                ease: Circ.easeOut
+
+
+        });
+
+*/
 
 
       }
@@ -271,6 +305,7 @@ export default class projects extends React.Component {
     return (
 
 
+      <div className="slide-wrap">
       <div className="slide-inner container" key="inner">
       <DocumentMeta {...meta} />
         
@@ -334,6 +369,7 @@ export default class projects extends React.Component {
         </div>
         
  		
+      </div>
       </div>
 
     )
