@@ -9,14 +9,14 @@ import zepto from 'npm-zepto'
 import gsap from 'gsap'
 
 
+import ReactTransitionGroup from 'react-addons-transition-group'
 
-
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+//import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 //import RouteTransition from './RouteTransition.js'
 
 
-require('../transitions.scss')
+//require('../transitions.scss')
 
 export default class App extends React.Component {
 
@@ -24,11 +24,44 @@ export default class App extends React.Component {
     super(props);
    
   }
+
+    componentWillAppear(didAppearCallback){
+        console.log('MyBox.componentWillAppear');
+        //this.show(didAppearCallback);
+    }
+    componentDidAppear(){
+        console.log('MyBox.componentDidAppear');
+    }
+
+    componentWillEnter(didEnterCallback){
+        console.log('MyBox.componentWillEnter');
+        //this.show(didEnterCallback);
+    }
+    componentDidEnter(){
+        console.log('MyBox.componentDidEnter');
+    }
+
+
+    componentWillLeave(didLeaveCallback){
+        console.log('MyBox.componentWillLeave');
+       // this.hide(didLeaveCallback);
+    }
+    componentDidLeave(){
+        console.log('MyBox.componentDidLeave');
+    }
+
+    componentDidMount() {
+        console.log('MyBox.componentDidMount');
+    }
+    componentWillUnmount() {
+        console.log('MyBox.componentWillUnmount');
+    }
+
+
  
   render() {
 
-   var name = this.props.params.name;
-   const { pathname } = this.props.location
+   const { location } = this.props;
 
      /*console.log(name)*/
     
@@ -38,9 +71,11 @@ export default class App extends React.Component {
            <Sidebar />               
            <div id="site">                                             
 
-                <ReactCSSTransitionGroup component="div" transitionName="example" transitionAppear={true} transitionAppearTimeout={1000}  transitionEnterTimeout={1000} transitionLeaveTimeout={1000} >
-                  {React.cloneElement(this.props.children || <div />, { key: pathname })}
-                </ReactCSSTransitionGroup>
+                <ReactTransitionGroup component='div' className='transition-wrapper'>
+            {React.cloneElement(this.props.children, {
+              key: location.pathname,
+            })}
+          </ReactTransitionGroup>
 
           </div>
             <Footer />

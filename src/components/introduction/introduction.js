@@ -113,12 +113,12 @@ componentDidMount() {
         this.preloadFunction(); 
         this.scrollFunction(); 
       //this.mouseFunction();  
-       console.log('did introduction');
+      // console.log('did introduction');
       
 }
 
   componentWillMount() {
-    console.log('will introduction');
+    //console.log('will introduction');
 
 }
 

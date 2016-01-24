@@ -62,7 +62,7 @@
 }
 
 .example-appear {
-  opacity: 0.01;
+  opacity: 0;
     transition:  .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
@@ -73,7 +73,7 @@
 }
 
 .example-enter {
-  opacity: 0.01;
+  opacity: 0;
     transition:  .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
@@ -90,6 +90,6 @@
 }
 
 .example-leave.example-leave-active {
-  opacity: 0.01;
+  opacity: 0;
   transition:  .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }

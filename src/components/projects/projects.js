@@ -260,11 +260,11 @@ export default class projects extends React.Component {
   componentDidMount() {
         //preloadFunction
         this.preloadFunction(); 
-        this.scrollFunction();  
+        //this.scrollFunction();  
 
         //console.log('did');
 
-         console.log('did introduction');
+   //      console.log('did introduction');
   }
 
   componentWillMount() {
@@ -272,7 +272,7 @@ export default class projects extends React.Component {
                // console.log('is safari? ' + isSafari)
 
 
-         console.log('will projects');
+         //console.log('will projects');
                     
   }
 
@@ -306,6 +306,7 @@ export default class projects extends React.Component {
 
 
       <div className="slide-wrap">
+      <div className="white"></div>
       <div className="slide-inner container" key="inner">
       <DocumentMeta {...meta} />
         

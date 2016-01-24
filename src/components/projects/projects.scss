@@ -16,6 +16,17 @@
     width: 100vw;
     top: 0;
     height: 100vh;
+   // overflow:hidden;
+
+   .white {
+            position:fixed;
+            width: 100vw;
+            height: 0vh;
+            left: 0;
+            top: 0;
+            background-color: $body-bg;
+            z-index: 2;
+   }
 
 
 }
